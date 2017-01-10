@@ -566,4 +566,22 @@
   .content-new-post .type-post .tags:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
+.content-new-user .new-user {
+  background-color: #fff; }
+  .content-new-user .new-user .header-new-user {
+    padding: 15px 20px;
+    border: 1px solid rgba(72, 207, 173, 0.7);
+    background-color: rgba(72, 207, 173, 0.7);
+    margin-bottom: 30px; }
+    .content-new-user .new-user .header-new-user h3 {
+      color: #fff;
+      margin: 0px; }
+  .content-new-user .new-user .body-new-user {
+    overflow: hidden; }
+    .content-new-user .new-user .body-new-user .picture .image {
+      border: 1px solid black;
+      width: 250px;
+      height: 200px;
+      margin-bottom: 15px; }
+
 /*# sourceMappingURL=custom.css.map */
