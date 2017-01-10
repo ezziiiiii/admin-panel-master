@@ -1,0 +1,43 @@
+@media (min-width: 768px) and (max-width: 1082px) {
+
+  //----------HEADER----------//
+  .header {
+    .header-right {
+      .menu-right {
+        .dropdown-notification {
+          left: -34px;
+        }
+        .dropdown-notification::before {
+          content: "";
+          position: absolute;
+          top: -7%;
+          left: 19%;
+          margin-left: -5px;
+          border-width: 15px;
+          border-style: solid;
+          border-color: transparent transparent #808b9c transparent;
+        }
+        .dropdown-user {
+          left: -69px;
+          background-color: #fff;
+        }
+        .dropdown-menu#user::before {
+          content: "";
+          position: absolute;
+          top: -13%;
+          left: 70%;
+          margin-left: -5px;
+          border-width: 15px;
+          border-style: solid;
+          border-color: transparent transparent #808b9c transparent;
+        }
+      }
+    }
+  }
+
+  .filter-post {
+    .type {
+      margin-bottom: 10px;
+    }
+  }
+}
