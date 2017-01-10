@@ -300,6 +300,28 @@
     margin-bottom: 20px;
   }
 
+  //----------HEADER-POST----------//
+  .header-title {
+    h3 {
+      a {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 3px 7px;
+        color: #808b9c;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+      }
+      a:hover {
+        text-decoration: none;
+        color: rgba(72, 207, 173, .7);
+      }
+      margin: 0px;
+      color: #808b9c;
+    }
+    background-color: #fff;
+    padding: 15px 20px;
+  }
+
   @media(min-width: 768px) {
     #wrapper {
       padding-left: 300px;
