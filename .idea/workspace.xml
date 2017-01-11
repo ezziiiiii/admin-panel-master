@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d11cd4a-6b3a-47b9-8b27-2364a0044f4b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_desktop-mac.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_desktop.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_desktop.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_new-post.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_new-post.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_new-user.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_new-user.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_post.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/_post.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/master.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/a9a7941a946d71e3e5ce5ac73e6a21349ddb03e2/master.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_new-user.scss" afterPath="$PROJECT_DIR$/css/_new-user.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_desktop.scss" afterPath="$PROJECT_DIR$/css/_desktop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_new-post.scss" afterPath="$PROJECT_DIR$/css/_new-post.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_post.scss" afterPath="$PROJECT_DIR$/css/_post.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css.map" afterPath="$PROJECT_DIR$/css/custom.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/master.scss" afterPath="$PROJECT_DIR$/css/master.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-user.html" afterPath="$PROJECT_DIR$/new-user.html" />
     </list>
     <ignored path="sidebar.iws" />
@@ -31,8 +39,8 @@
       <file leaf-file-name="new-user.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="347" column="71" selection-start-line="347" selection-start-column="71" selection-end-line="347" selection-end-column="71" />
+            <state relative-caret-position="2365">
+              <caret line="468" column="53" selection-start-line="468" selection-start-column="53" selection-end-line="468" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -41,18 +49,8 @@
       <file leaf-file-name="_new-user.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/_new-user.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_desktop.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_desktop.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="55" column="36" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="507">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -78,17 +76,17 @@
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/js/text-area.js" />
         <option value="$PROJECT_DIR$/css/new-post.scss" />
-        <option value="$PROJECT_DIR$/css/_new-post.scss" />
         <option value="$PROJECT_DIR$/css/_smartphone.scss" />
         <option value="$PROJECT_DIR$/css/_desktop-umum.scss" />
         <option value="$PROJECT_DIR$/css/_tablet.scss" />
         <option value="$PROJECT_DIR$/css/_desktop-mac.scss" />
-        <option value="$PROJECT_DIR$/css/master.scss" />
-        <option value="$PROJECT_DIR$/css/_post.scss" />
-        <option value="$PROJECT_DIR$/css/_desktop.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/new-post.html" />
+        <option value="$PROJECT_DIR$/css/_desktop.scss" />
+        <option value="$PROJECT_DIR$/css/master.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/new-user.html" />
+        <option value="$PROJECT_DIR$/css/_new-post.scss" />
+        <option value="$PROJECT_DIR$/css/_post.scss" />
         <option value="$PROJECT_DIR$/css/_new-user.scss" />
       </list>
     </option>
@@ -254,12 +252,12 @@
       <workItem from="1484015283571" duration="7349000" />
       <workItem from="1484046108312" duration="43000" />
       <workItem from="1484046193259" duration="807000" />
-      <workItem from="1484101641082" duration="13252000" />
+      <workItem from="1484101641082" duration="16765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190104000" />
+    <option name="totallyTimeSpent" value="193617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -304,6 +302,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -326,6 +329,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -573,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_tablet.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -598,61 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/master.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_desktop-mac.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="316" column="28" selection-start-line="316" selection-start-column="28" selection-end-line="316" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="304" column="32" selection-start-line="304" selection-start-column="32" selection-end-line="304" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_new-post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="122" column="49" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="347" column="71" selection-start-line="347" selection-start-column="71" selection-end-line="347" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -665,10 +615,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/new-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="316" column="28" selection-start-line="316" selection-start-column="28" selection-end-line="316" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/master.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_tablet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="355" column="54" selection-start-line="355" selection-start-column="54" selection-end-line="355" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_desktop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1669">
+          <caret line="147" column="13" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_new-post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2365">
+          <caret line="468" column="53" selection-start-line="468" selection-start-column="53" selection-end-line="468" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/_new-user.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+        <state relative-caret-position="507">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
           <folding />
         </state>
       </provider>
