@@ -316,7 +316,7 @@
     <!-- HEADER-POST -->
     <div class="header-title">
         <h3>
-            <i class="fa fa-plus" aria-hidden="true"></i> Add User
+            <i class="fa fa-user-plus" aria-hidden="true"></i> Add User
         </h3>
     </div><!--END OF HEADER-POST-->
 
@@ -332,16 +332,143 @@
                 </div>
                 <div class="body-new-user">
                     <div class="profile-pic">
-                        <div class="col-md-4 col-sm-4"></div>
-                        <div class="picture col-md-4 col-sm-4">
-                            <div class="image">
-                                <img src="images/profile-pic.jpeg">
+                        <div class="col-md-2 col-sm-2"></div>
+                        <div class="content col-md-8 col-sm-8">
+                            <div class="change-pic">
+                                <div class="picture">
+                                    <img src="images/profile-pic.jpeg">
+                                </div>
+                                <button type="button" class="btn btn-default">Select Image</button>
                             </div>
-                            <button type="button" class="btn btn-default">Select Image</button>
+                            <div class="form">
+                                <form method="" action="">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="First Name..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Last Name..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Username..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Email..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-lock" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Password..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-lock" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Re-Password..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Phone..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="radio" name="sex" value="male"><span>Male</span>
+                                                <input type="radio" name="sex" value="female" id="fmale"><span>Female</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Address..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="City..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1">
+                                                        <i class="fa fa-lock" aria-hidden="true"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Pincode..." aria-describedby="basic-addon1">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="checkbox"> <span>I'm not a robot ! </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <button type="button" class="btn btn-default" id="add">
+                                                    <i class="fa fa-user-plus" aria-hidden="true"></i> Add User
+                                                </button>
+                                                <button type="button" class="btn btn-default" id="reset">
+                                                    <i class="fa fa-refresh" aria-hidden="true"></i> Reset
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-sm-4"></div>
-                    </div>
-                </div>
+                        <div class="col-md-2 col-sm-2"></div>
+                    </div><!--END OF PROFILE-PIC-->
+                </div><!--END OF BODY-NEW-USER-->
             </div>
         </div><!--END OF .CONTENT-NEW-USER-->
 

@@ -578,10 +578,47 @@
       margin: 0px; }
   .content-new-user .new-user .body-new-user {
     overflow: hidden; }
-    .content-new-user .new-user .body-new-user .picture .image {
-      border: 1px solid black;
-      width: 250px;
-      height: 200px;
-      margin-bottom: 15px; }
+    .content-new-user .new-user .body-new-user .content .change-pic {
+      padding: 10px 15px; }
+      .content-new-user .new-user .body-new-user .content .change-pic .picture {
+        border: 3px dashed rgba(72, 207, 173, 0.7);
+        width: 240px;
+        height: 240px;
+        margin-bottom: 15px;
+        padding: 10px; }
+      .content-new-user .new-user .body-new-user .content .change-pic button {
+        color: #fff;
+        background-color: rgba(72, 207, 173, 0.7);
+        border-color: rgba(72, 207, 173, 0.7); }
+      .content-new-user .new-user .body-new-user .content .change-pic button:hover {
+        background-color: #48cfad; }
+    .content-new-user .new-user .body-new-user .content .form table td {
+      padding: 10px 15px; }
+    .content-new-user .new-user .body-new-user .content .form table input[type=radio] {
+      margin-right: 5px; }
+    .content-new-user .new-user .body-new-user .content .form table input[type=radio]#fmale {
+      margin-left: 15px; }
+    .content-new-user .new-user .body-new-user .content .form table span {
+      color: #808B9C; }
+    .content-new-user .new-user .body-new-user .content .form table i {
+      color: rgba(72, 207, 173, 0.7); }
+    .content-new-user .new-user .body-new-user .content .form table button#add {
+      color: #fff;
+      background-color: rgba(72, 207, 173, 0.7);
+      border-color: rgba(72, 207, 173, 0.7); }
+      .content-new-user .new-user .body-new-user .content .form table button#add i {
+        color: #fff; }
+    .content-new-user .new-user .body-new-user .content .form table button#add:hover {
+      background-color: #48cfad; }
+    .content-new-user .new-user .body-new-user .content .form table button#reset {
+      background-color: rgba(255, 182, 95, 0.7);
+      border-color: rgba(255, 182, 95, 0.7);
+      color: #fff; }
+      .content-new-user .new-user .body-new-user .content .form table button#reset i {
+        color: #fff; }
+    .content-new-user .new-user .body-new-user .content .form table button#reset:hover {
+      background-color: #ffb65f; }
+.content-new-user .new-user:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=custom.css.map */
