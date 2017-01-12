@@ -151,6 +151,7 @@ body {
 
 #page-content-wrapper {
   width: 100%;
+  min-height: 1250px;
   position: absolute; }
 
 #wrapper.toggled #page-content-wrapper {
@@ -612,14 +613,131 @@ body {
     .content-new-user .new-user .body-new-user .content .form table button#add:hover {
       background-color: #48cfad; }
     .content-new-user .new-user .body-new-user .content .form table button#reset {
-      background-color: rgba(255, 182, 95, 0.7);
-      border-color: rgba(255, 182, 95, 0.7);
+      background-color: #FFB65F;
+      border-color: #FFB65F;
       color: #fff; }
       .content-new-user .new-user .body-new-user .content .form table button#reset i {
         color: #fff; }
     .content-new-user .new-user .body-new-user .content .form table button#reset:hover {
-      background-color: #ffb65f; }
+      background-color: rgba(255, 182, 95, 0.8); }
 .content-new-user .new-user:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
+.content-user-profile .user-profile {
+  background-color: #fff;
+  margin-bottom: 50px; }
+  .content-user-profile .user-profile .header-user-profile {
+    padding: 15px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .content-user-profile .user-profile .header-user-profile h3 {
+      color: #fff;
+      margin: 0px; }
+    .content-user-profile .user-profile .header-user-profile a {
+      color: #fff; }
+    .content-user-profile .user-profile .header-user-profile a:hover {
+      text-decoration: none; }
+  .content-user-profile .user-profile .body-user-profile .p-i-left {
+    padding: 0px 20px; }
+    .content-user-profile .user-profile .body-user-profile .p-i-left .image img {
+      position: relative;
+      left: 165px; }
+    .content-user-profile .user-profile .body-user-profile .p-i-left .status h4 {
+      color: #808B9C; }
+  .content-user-profile .user-profile .body-user-profile .p-i-right table td {
+    width: 55%;
+    padding: 10px; }
+  .content-user-profile .user-profile .body-user-profile .p-i-right table p {
+    color: #808B9C;
+    font-size: 16px;
+    margin-bottom: 0px; }
+.content-user-profile .user-profile:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+.content-user-profile .event {
+  overflow: hidden;
+  background-color: #fff;
+  display: block;
+  clear: both; }
+  .content-user-profile .event .header-event {
+    padding: 15px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .content-user-profile .event .header-event h3 {
+      color: #fff;
+      margin: 0px; }
+    .content-user-profile .event .header-event a {
+      color: #fff; }
+    .content-user-profile .event .header-event a:hover {
+      text-decoration: none; }
+  .content-user-profile .event .body-event {
+    display: block;
+    height: 770px;
+    overflow-x: scroll; }
+    .content-user-profile .event .body-event .event-panel {
+      position: relative;
+      list-style: none;
+      padding: 20px;
+      display: block; }
+      .content-user-profile .event .body-event .event-panel li {
+        margin-bottom: 20px;
+        float: left;
+        clear: both;
+        width: 45%; }
+      .content-user-profile .event .body-event .event-panel li.event-inverted {
+        float: right; }
+      .content-user-profile .event .body-event .event-panel .event-badge {
+        background-color: #48CFAD;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        font-size: 1.4em;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: -25px; }
+      .content-user-profile .event .body-event .event-panel .event-badge.right {
+        background-color: #FFB65F; }
+      .content-user-profile .event .body-event .event-panel .event-list {
+        background-color: #48CFAD;
+        color: #fff;
+        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+        position: relative; }
+      .content-user-profile .event .body-event .event-panel .event-list.left::after {
+        content: "";
+        position: absolute;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent #48CFAD;
+        left: 526px;
+        top: 10px; }
+      .content-user-profile .event .body-event .event-panel .event-list.right {
+        background-color: #FFB65F; }
+      .content-user-profile .event .body-event .event-panel .event-list.right::before {
+        content: "";
+        position: absolute;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent #FFB65F transparent transparent;
+        left: -29px;
+        top: 10px; }
+    .content-user-profile .event .body-event .event-panel::before {
+      content: "";
+      background-color: black;
+      bottom: 0;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 3px;
+      margin-bottom: 30px; }
+.content-user-profile .event:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=custom.css.map */
