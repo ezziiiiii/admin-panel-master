@@ -710,14 +710,14 @@ body {
         padding: 15px;
         border-radius: 5px;
         position: relative; }
-      .content-user-profile .event .body-event .event-panel .event-list.left::after {
+      .content-user-profile .event .body-event .event-panel .event-list.left::before {
         content: "";
         position: absolute;
         border-width: 15px;
         border-style: solid;
         border-color: transparent transparent transparent #48CFAD;
-        left: 470px;
-        top: 10px; }
+        top: 10px;
+        left: 470px; }
       .content-user-profile .event .body-event .event-panel .event-list.right {
         background-color: #FFB65F; }
       .content-user-profile .event .body-event .event-panel .event-list.right::before {

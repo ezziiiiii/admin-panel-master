@@ -110,14 +110,15 @@
           border-radius: 5px;
           position: relative;
         }
-        .event-list.left::after {
+        .event-list.left::before {
           content: "";
           position: absolute;
           border-width: 15px;
           border-style: solid;
           border-color: transparent transparent transparent #48CFAD;
-          left: 470px;
           top: 10px;
+          left: 470px;
+
         }
         .event-list.right {
           background-color: #FFB65F;
