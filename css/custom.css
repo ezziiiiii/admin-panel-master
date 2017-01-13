@@ -381,7 +381,7 @@ body {
     .content-post .filter-post .action, .content-post .filter-post .type, .content-post .filter-post .total-post, .content-post .total-post .action, .content-post .total-post .type, .content-post .total-post .total-post {
       padding: 0px; }
       .content-post .filter-post .action td, .content-post .filter-post .type td, .content-post .filter-post .total-post td, .content-post .total-post .action td, .content-post .total-post .type td, .content-post .total-post .total-post td {
-        padding-right: 10px; }
+        padding-right: 5px; }
     .content-post .filter-post .total-post, .content-post .total-post .total-post {
       margin-bottom: 0px; }
       .content-post .filter-post .total-post p, .content-post .filter-post .total-post i, .content-post .total-post .total-post p, .content-post .total-post .total-post i {
@@ -643,7 +643,7 @@ body {
     padding: 0px 20px; }
     .content-user-profile .user-profile .body-user-profile .p-i-left .image img {
       position: relative;
-      left: 165px; }
+      left: 135px; }
     .content-user-profile .user-profile .body-user-profile .p-i-left .status h4 {
       color: #808B9C; }
   .content-user-profile .user-profile .body-user-profile .p-i-right table td {
@@ -651,7 +651,7 @@ body {
     padding: 10px; }
   .content-user-profile .user-profile .body-user-profile .p-i-right table p {
     color: #808B9C;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0px; }
 .content-user-profile .user-profile:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
@@ -716,7 +716,7 @@ body {
         border-width: 15px;
         border-style: solid;
         border-color: transparent transparent transparent #48CFAD;
-        left: 526px;
+        left: 470px;
         top: 10px; }
       .content-user-profile .event .body-event .event-panel .event-list.right {
         background-color: #FFB65F; }
