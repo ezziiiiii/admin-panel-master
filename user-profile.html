@@ -48,25 +48,25 @@
         <div class="container-fluid">
 
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="header-left col-md-2 col-sm-4">
+            <div class="header-left col-md-3 col-sm-4">
                 <div class="navbar-header text-center">
                     <div class="brand">
                         <a class="navbar-brand" href="#"><h1>MCS Admin</h1></a>
+                    </div>
+                    <div class="menu-toggle pull-right">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#menu-toggle" id="menu-toggle">
+                                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div><!--END OF .NAVBAR-HEADER-->
             </div><!--END OF .HEADER-LEFT-->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="header-right col-md-10 col-sm-8">
-                <div class="menu-toggle" style="float: left;">
-                    <ul class="nav navbar-nav pull-left">
-                        <li>
-                            <a href="#menu-toggle" id="menu-toggle">
-                                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="header-right col-md-9 col-sm-8">
                 <div class="menu-right" style="float: right;">
                     <!--.NAVBAR-RIGHT-->
                     <ul class="nav navbar-nav nav-pills navbar-right">
@@ -342,7 +342,7 @@
                                 <img src="images/profile-pic.jpeg">
                             </div>
                             <div class="status">
-                                <h4>" Lorem Ipsum is simply dummy text of the printing and typesetting industry. "</h4>
+                                <h5>" Lorem Ipsum is simply dummy text of the printing and typesetting industry. "</h5>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 p-i-right">
@@ -382,74 +382,78 @@
                 </div><!--END OF BODY-USER-PROFILE-->
             </div><!--END OF USER-PROFILE-->
             <div class="event">
-                <div class="header-event">
+                <div class="page-header">
                     <div class="title pull-left">
-                        <h3><i class="fa fa-calendar" aria-hidden="true"></i> Event</h3>
+                        <h3 id="timeline"><i class="fa fa-calendar" aria-hidden="true"></i> Event</h3>
                     </div>
                     <div class="edit pull-right">
-                        <h3><a href="#" class="fa fa-pencil" aria-hidden="true"></a></h3>
+                        <h3><a href="#" class="fa fa-plus" aria-hidden="true"></a></h3>
                     </div>
                 </div>
-                <div class="body-event">
-                    <ul class="event-panel">
+                <div class="page-body">
+                    <ul class="timeline">
                         <li>
-                            <div class="event-badge">
-                                <i class="fa fa-tag" aria-hidden="true"></i>
+                            <div class="timeline-badge warning"><i class="fa fa-tag" aria-hidden="true"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Meeting with CEO</h4>
+                                    <p><small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> 26 Januari 2017</small></p>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 09.00</small></p>
                             </div>
-                            <div class="event-list left">
-                                <h4>Meeting with CEO</h4>
-                                <p>20 Januari 2017</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                        </li>
-                        <li class="event-inverted">
-                            <div class="event-badge right">
-                                <i class="fa fa-tag" aria-hidden="true"></i>
-                            </div>
-                            <div class="event-list right">
-                                <h4>Meeting with Team</h4>
-                                <p>10 Januari 2017</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
                             </div>
                         </li>
                         <li>
-                            <div class="event-badge">
-                                <i class="fa fa-tag" aria-hidden="true"></i>
-                            </div>
-                            <div class="event-list left">
-                                <h4>Proposal Sales</h4>
-                                <p>8 Januari 2017</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Meeting with CEO</h4>
+                                    <p><small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> 26 Januari 2017</small></p>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 09.00</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
                             </div>
                         </li>
-                        <li class="event-inverted">
-                            <div class="event-badge right">
-                                <i class="fa fa-tag" aria-hidden="true"></i>
-                            </div>
-                            <div class="event-list right">
-                                <h4>Meet a friend</h4>
-                                <p>3 Januari 2017</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge"><i class="fa fa-tag" aria-hidden="true"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Meeting with team</h4>
+                                    <p><small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> 20 Januari 2017</small></p>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 09.00</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
                             </div>
                         </li>
                         <li>
-                            <div class="event-badge">
-                                <i class="fa fa-tag" aria-hidden="true"></i>
-                            </div>
-                            <div class="event-list left">
-                                <h4>Proposal Sales</h4>
-                                <p>8 Januari 2017</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <div class="timeline-badge warning"><i class="fa fa-tag" aria-hidden="true"></i></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Proposal sales</h4>
+                                    <p><small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> 15 Januari 2017</small></p>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 09.00</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
                             </div>
                         </li>
-                        <li class="event-inverted">
-                            <div class="event-badge right">
-                                <i class="fa fa-tag" aria-hidden="true"></i>
-                            </div>
-                            <div class="event-list right">
-                                <h4>Meet a friend</h4>
-                                <p>3 Januari 2017</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge"><i class="fa fa-tag" aria-hidden="true"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Meet with friends</h4>
+                                    <p><small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> 8 Januari 2017</small></p>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 09.00</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
                             </div>
                         </li>
                     </ul>

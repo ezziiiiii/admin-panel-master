@@ -9,7 +9,8 @@
           span {
             color: #808b9c;
           }
-          background-color: rgba(72, 207, 173, .7);
+          border: 1px solid #48CFAD;
+          background-color: #48CFAD;
           color: #fff;
         }
         a {
@@ -21,17 +22,18 @@
             color: #808b9c;
           }
           color: #fff;
-          background-color: rgba(72, 207, 173, .7);
+          border: 1px solid #48CFAD;
+          background-color: #48CFAD;
         }
       }
       .pull-right {
         button {
           color: #fff;
-          background-color: rgba(72, 207, 173, .7);
-          border-color: rgba(72, 207, 173, .7);
+          border: 1px solid #48CFAD;
+          background-color: #48CFAD;
         }
         button:hover{
-          background-color: rgba(72, 207, 173, 1);
+          background-color: rgba(72, 207, 173, .7);
         }
       }
       padding: 0px;
@@ -49,12 +51,12 @@
       }
       button {
         padding: 4px 6px;
-        background-color: rgba(72, 207, 173, .7);
         color: #fff;
-        border-color: rgba(72, 207, 173, .7);
+        border: 1px solid #48CFAD;
+        background-color: #48CFAD;
       }
       button:hover {
-        background-color: rgba(72, 207, 173, 1);
+        background-color: rgba(72, 207, 173, .7);
       }
       .action, .type, .total-post {
         td {
@@ -74,7 +76,7 @@
         }
         a:hover {
           text-decoration: none;
-          background-color: rgba(72, 207, 173, .7);
+          background-color: #48CFAD;
           color: #fff;
         }
         margin-bottom: 0px;
@@ -92,13 +94,13 @@
           color: #808b9c;
         }
         .genap {
-          background-color: rgba(72, 207, 173, .7);
+          background-color: #48CFAD;
           color: #fff;
         }
         background-color: #fff;
       }
       table:hover {
-        box-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
       }
       p {
         margin: 0px;
@@ -122,7 +124,7 @@
       }
       a:hover {
         text-decoration: none;
-        background-color: rgba(72, 207, 173, .7);
+        background-color: #48CFAD;
         color: #fff;
       }
     }
