@@ -14,7 +14,7 @@
       a:hover {
         text-decoration: none;
       }
-      padding: 15px 20px;
+      padding: 10px 20px;
       border: 1px solid #48CFAD;
       background-color: #48CFAD;
       margin-bottom: 30px;
@@ -26,10 +26,14 @@
           img {
             position: relative;
             left: 135px;
+            border-radius: 50%;
+            background-color: transparent;
           }
+          display: block;
         }
         .status {
           h5 {
+            text-align: center;
             color: #808B9C;
           }
         }
@@ -69,13 +73,66 @@
       a:hover {
         text-decoration: none;
       }
-      padding: 15px 20px;
+      .add-event {
+        .modal-content {
+          .modal-header {
+            background-color: #48CFAD;
+            color: #fff;
+          }
+          .modal-body {
+            .title-event, .date-time, .note {
+              margin-bottom: 20px;
+            }
+            .date-time {
+              .date {
+                padding-left: 0px;
+              }
+              .time {
+                span {
+                  color: #808B9C;
+                }
+                padding-right: 0px;
+              }
+            }
+            .note {
+              input[type='text'] {
+                height: 150px;
+              }
+            }
+            button {
+              border: 1px solid #48CFAD;
+              background-color: #48CFAD;
+              color: #fff;
+            }
+            button:hover {
+              background-color: rgba(72, 207, 173, .7);
+            }
+            color: #808B9C;
+          }
+        }
+      }
+      padding: 10px 20px;
       border: 1px solid #48CFAD;
       background-color: #48CFAD;
       overflow: hidden;
       margin: 0px;
     }
     .page-body {
+      .timeline-heading {
+        button {
+          border: none;
+          background-color: transparent;
+        }
+        button.edit {
+          border-right: 2px solid #EAEAEA;
+        }
+        button.edit:hover {
+          color: #48CFAD;
+        }
+        button:hover {
+        color: #FFB65F;
+        }
+      }
       background-color: #fff;
       padding: 15px 20px;
       height: 730px;

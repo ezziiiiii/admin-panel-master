@@ -24,8 +24,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <!-- Bootstrap Date-Picker Plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.15.35/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,25 +47,25 @@
         <div class="container-fluid">
 
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="header-left col-md-2 col-sm-4">
+            <div class="header-left col-md-3 col-sm-5">
                 <div class="navbar-header text-center">
                     <div class="brand">
                         <a class="navbar-brand" href="#"><h1>MCS Admin</h1></a>
+                    </div>
+                    <div class="menu-toggle pull-right">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#menu-toggle" id="menu-toggle">
+                                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div><!--END OF .NAVBAR-HEADER-->
             </div><!--END OF .HEADER-LEFT-->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="header-right col-md-10 col-sm-8">
-                <div class="menu-toggle" style="float: left;">
-                    <ul class="nav navbar-nav pull-left">
-                        <li>
-                            <a href="#menu-toggle" id="menu-toggle">
-                                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="header-right col-md-9 col-sm-7">
                 <div class="menu-right" style="float: right;">
                     <!--.NAVBAR-RIGHT-->
                     <ul class="nav navbar-nav nav-pills navbar-right">
@@ -496,18 +495,22 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 <!-- Include Date Range Picker -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.15.35/js/bootstrap-datetimepicker.min.js"></script>
 
-<script>
-    $(document).ready(function(){
-        var date_input=$('input[name="date"]'); //our date input has the name "date"
-        date_input.datepicker({
-            format: 'dd/mm/yyyy',
-            todayHighlight: true,
-            autoclose: true,
-        })
-    })
+<script type="text/javascript">
+    $(function () {
+        var date_input=$('input[name="date"]');
+        date_input.datetimepicker({
+            format: 'DD/MM/YYYY'
+        });
+
+        var time_input=$('input[name="time"]');
+        time_input.datetimepicker({
+            format: 'HH:mm'
+        });
+    });
 </script>
 
 </body>

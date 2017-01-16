@@ -49,7 +49,7 @@ body {
     width: 250px;
     padding: 0px; }
     .header .header-right .dropdown .dropdown-menu .header-notification, .header .header-right .dropdown .dropdown-menu .footer-notification {
-      background-color: #808b9c; }
+      background-color: #808B9C; }
       .header .header-right .dropdown .dropdown-menu .header-notification li, .header .header-right .dropdown .dropdown-menu .footer-notification li {
         height: 40px;
         padding: 10px 0px; }
@@ -220,12 +220,12 @@ body {
   padding: 15px 20px; }
   .header-title h3 {
     margin: 0px;
-    color: #808b9c; }
+    color: #808B9C; }
     .header-title h3 a {
       font-weight: 600;
       font-size: 14px;
       padding: 3px 7px;
-      color: #808b9c;
+      color: #808B9C;
       background-color: #EAEAEA;
       border-radius: 5px; }
     .header-title h3 a:hover {
@@ -432,7 +432,7 @@ body {
 .content-new-post .text-post {
   padding-left: 0px; }
   .content-new-post .text-post .title {
-    margin-bottom: 50px; }
+    margin-bottom: 20px; }
   .content-new-post .text-post .title:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
   .content-new-post .text-post .text-area:hover {
@@ -459,9 +459,9 @@ body {
       .content-new-post .text-post .text-area #mceu_24 button:hover .mce-caret {
         border-top: 4px solid #808b9c; }
   .content-new-post .text-post .text-area #mceu_32 button {
-    background-color: #fff; }
-  .content-new-post .text-post .text-area #mceu_32 button:hover {
     background-color: #EAEAEA; }
+  .content-new-post .text-post .text-area #mceu_32 button:hover {
+    background-color: #fff; }
   .content-new-post .text-post .text-area #mceu_32 span, .content-new-post .text-post .text-area #mceu_32 i {
     color: #808b9c; }
   .content-new-post .text-post .text-area #mceu_32 .mce-caret {
@@ -492,19 +492,19 @@ body {
         padding: 5px 10px; }
       .content-new-post .type-post .publish .content-publish ul {
         padding: 0px; }
-        .content-new-post .type-post .publish .content-publish ul li {
+        .content-new-post .type-post .publish .content-publish ul li button {
+          border: none;
+          color: #FFB65F;
+          background-color: transparent;
+          padding: 5px 0px 6px 0px;
+          text-decoration: underline; }
+        .content-new-post .type-post .publish .content-publish ul li button:hover {
+          color: rgba(255, 182, 95, 0.7); }
+        .content-new-post .type-post .publish .content-publish ul .line {
           list-style: none;
-          height: 40px;
           border-bottom: 1px solid  #808b9c;
-          padding: 5px 10px; }
-          .content-new-post .type-post .publish .content-publish ul li button {
-            border: none;
-            color: #FFB65F;
-            background-color: transparent;
-            padding: 5px 0px 6px 0px;
-            text-decoration: underline; }
-          .content-new-post .type-post .publish .content-publish ul li button:hover {
-            color: rgba(255, 182, 95, 0.7); }
+          padding: 5px 10px;
+          height: 40px; }
     .content-new-post .type-post .publish .footer-publish {
       display: inline-block;
       width: 100%;
@@ -579,7 +579,7 @@ body {
 .content-new-user .new-user {
   background-color: #fff; }
   .content-new-user .new-user .header-new-user {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: 1px solid #48CFAD;
     background-color: #48CFAD;
     margin-bottom: 30px; }
@@ -635,7 +635,7 @@ body {
   background-color: #fff;
   margin-bottom: 50px; }
   .content-user-profile .user-profile .header-user-profile {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: 1px solid #48CFAD;
     background-color: #48CFAD;
     margin-bottom: 30px;
@@ -649,10 +649,15 @@ body {
       text-decoration: none; }
   .content-user-profile .user-profile .body-user-profile .p-i-left {
     padding: 0px 20px; }
-    .content-user-profile .user-profile .body-user-profile .p-i-left .image img {
-      position: relative;
-      left: 135px; }
+    .content-user-profile .user-profile .body-user-profile .p-i-left .image {
+      display: block; }
+      .content-user-profile .user-profile .body-user-profile .p-i-left .image img {
+        position: relative;
+        left: 135px;
+        border-radius: 50%;
+        background-color: transparent; }
     .content-user-profile .user-profile .body-user-profile .p-i-left .status h5 {
+      text-align: center;
       color: #808B9C; }
   .content-user-profile .user-profile .body-user-profile .p-i-right table td {
     width: 55%;
@@ -664,7 +669,7 @@ body {
 .content-user-profile .user-profile:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 .content-user-profile .event .page-header {
-  padding: 15px 20px;
+  padding: 10px 20px;
   border: 1px solid #48CFAD;
   background-color: #48CFAD;
   overflow: hidden;
@@ -676,11 +681,41 @@ body {
     color: #fff; }
   .content-user-profile .event .page-header a:hover {
     text-decoration: none; }
+  .content-user-profile .event .page-header .add-event .modal-content .modal-header {
+    background-color: #48CFAD;
+    color: #fff; }
+  .content-user-profile .event .page-header .add-event .modal-content .modal-body {
+    color: #808B9C; }
+    .content-user-profile .event .page-header .add-event .modal-content .modal-body .title-event, .content-user-profile .event .page-header .add-event .modal-content .modal-body .date-time, .content-user-profile .event .page-header .add-event .modal-content .modal-body .note {
+      margin-bottom: 20px; }
+    .content-user-profile .event .page-header .add-event .modal-content .modal-body .date-time .date {
+      padding-left: 0px; }
+    .content-user-profile .event .page-header .add-event .modal-content .modal-body .date-time .time {
+      padding-right: 0px; }
+      .content-user-profile .event .page-header .add-event .modal-content .modal-body .date-time .time span {
+        color: #808B9C; }
+    .content-user-profile .event .page-header .add-event .modal-content .modal-body .note input[type='text'] {
+      height: 150px; }
+    .content-user-profile .event .page-header .add-event .modal-content .modal-body button {
+      border: 1px solid #48CFAD;
+      background-color: #48CFAD;
+      color: #fff; }
+    .content-user-profile .event .page-header .add-event .modal-content .modal-body button:hover {
+      background-color: rgba(72, 207, 173, 0.7); }
 .content-user-profile .event .page-body {
   background-color: #fff;
   padding: 15px 20px;
   height: 730px;
   overflow-x: auto; }
+  .content-user-profile .event .page-body .timeline-heading button {
+    border: none;
+    background-color: transparent; }
+  .content-user-profile .event .page-body .timeline-heading button.edit {
+    border-right: 2px solid #EAEAEA; }
+  .content-user-profile .event .page-body .timeline-heading button.edit:hover {
+    color: #48CFAD; }
+  .content-user-profile .event .page-body .timeline-heading button:hover {
+    color: #FFB65F; }
 .content-user-profile .event .timeline {
   list-style: none;
   padding: 20px 0 20px;
