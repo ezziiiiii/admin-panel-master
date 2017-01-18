@@ -1,0 +1,75 @@
+//----------LOGIN PAGE----------//
+html, body, .container {
+            height: 100%;
+            width: 100%;
+        }
+        .container {
+            display: table;
+            vertical-align: middle;
+        }
+        .col-center-block {
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .vertical-center-row {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .vs-big-font {
+            font-size: 91px;
+        }
+        .vs-screen-bg {
+            background-color: #313E4B;
+        }
+        .login-right {
+            background-color: #eaeaea;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .login-right::before {
+            content: "";
+          position: absolute;
+          top: 14%;
+          left: -4%;
+          margin-left: -5px;
+          border-width: 15px;
+          border-style: solid;
+          border-color: transparent #eaeaea transparent transparent;
+        }
+        .login {
+            .image {
+                h1 {
+                    color: #808B9C;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+            h6 {
+                color: #48CFAD;
+            }
+            .login-form {
+                .input-group {
+                    input[type=text] {
+                        border: none;
+                    }
+                    span {
+                        background-color: #fff;
+                        border-color: #F8F8F8;
+                        color: #999999;
+                        padding-left: 10px;
+                    }
+                    margin-bottom: 15px;
+                }
+                button {
+                    background-color: #48CFAD;
+                    border-color: #48CFAD;
+                    color: #fff;
+                }
+                button:hover {
+                    background-color: #7fddc5;
+                }
+            }
+        }

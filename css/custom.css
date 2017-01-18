@@ -601,7 +601,7 @@ body {
         border: 1px solid #48CFAD;
         background-color: #48CFAD; }
       .content-new-user .new-user .body-new-user .content .change-pic button:hover {
-        background-color: rgba(72, 207, 173, 0.7); }
+        background-color: #7fddc5; }
     .content-new-user .new-user .body-new-user .content .form table td {
       padding: 10px 15px; }
     .content-new-user .new-user .body-new-user .content .form table input[type=radio] {
@@ -619,7 +619,7 @@ body {
       .content-new-user .new-user .body-new-user .content .form table button#add i {
         color: #fff; }
     .content-new-user .new-user .body-new-user .content .form table button#add:hover {
-      background-color: rgba(72, 207, 173, 0.7); }
+      background-color: #7fddc5; }
     .content-new-user .new-user .body-new-user .content .form table button#reset {
       background-color: #FFB65F;
       border-color: #FFB65F;
@@ -627,7 +627,7 @@ body {
       .content-new-user .new-user .body-new-user .content .form table button#reset i {
         color: #fff; }
     .content-new-user .new-user .body-new-user .content .form table button#reset:hover {
-      background-color: rgba(255, 182, 95, 0.7); }
+      background-color: #FFCC8F; }
 .content-new-user .new-user:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
@@ -830,5 +830,66 @@ body {
   margin-top: 5px; }
 .content-user-profile .event:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
+html, body, .container {
+  height: 100%;
+  width: 100%; }
+
+.container {
+  display: table;
+  vertical-align: middle; }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle; }
+
+.vs-big-font {
+  font-size: 91px; }
+
+.vs-screen-bg {
+  background-color: #313E4B; }
+
+.login-right {
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 5px; }
+
+.login-right::before {
+  content: "";
+  position: absolute;
+  top: 14%;
+  left: -4%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #eaeaea transparent transparent; }
+
+.login .image h1 {
+  color: #808B9C; }
+.login .image a:hover {
+  text-decoration: none; }
+.login h6 {
+  color: #48CFAD; }
+.login .login-form .input-group {
+  margin-bottom: 15px; }
+  .login .login-form .input-group input[type=text] {
+    border: none; }
+  .login .login-form .input-group span {
+    background-color: #fff;
+    border-color: #F8F8F8;
+    color: #999999;
+    padding-left: 10px; }
+.login .login-form button {
+  background-color: #48CFAD;
+  border-color: #48CFAD;
+  color: #fff; }
+.login .login-form button:hover {
+  background-color: #7fddc5; }
 
 /*# sourceMappingURL=custom.css.map */
