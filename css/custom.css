@@ -253,7 +253,7 @@ body {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
-@media (min-width: 768px) and (max-width: 1082px) {
+@media (min-width: 768px) and (max-width: 1366px) {
   .header .header-right .menu-right .dropdown-notification {
     left: -34px; }
   .header .header-right .menu-right .dropdown-notification::before {
@@ -279,7 +279,17 @@ body {
     border-color: transparent transparent #808b9c transparent; }
 
   .filter-post .type {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+
+  .login .login-right::before {
+    content: "";
+    position: absolute;
+    top: 14%;
+    left: -5%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #eaeaea transparent transparent; } }
 @media (max-width: 767px) {
   .header .header-right .menu-toggle a {
     padding-left: 15px;
@@ -333,7 +343,15 @@ body {
     padding-right: 0px;
     margin-bottom: 30px; }
   .content-new-post .type-post {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  .login .login-right::before {
+    content: "";
+    position: absolute;
+    top: 14%;
+    left: -5%;
+    margin-left: -5px;
+    border: none; } }
 .content-post {
   display: inline-block;
   width: 100%; }
@@ -848,9 +866,6 @@ html, body, .container {
 .vertical-center-row {
   display: table-cell;
   vertical-align: middle; }
-
-.vs-big-font {
-  font-size: 91px; }
 
 .vs-screen-bg {
   background-color: #313E4B; }

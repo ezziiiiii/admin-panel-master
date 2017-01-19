@@ -84,4 +84,16 @@
       padding-left: 0px;
     }
   }
+
+  //----------LOGIN-PAGE----------//
+  .login {
+    .login-right::before {
+            content: "";
+          position: absolute;
+          top: 14%;
+          left: -5%;
+          margin-left: -5px;
+          border: none;
+        }
+  }
 }

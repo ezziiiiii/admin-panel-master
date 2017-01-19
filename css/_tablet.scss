@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1082px) {
+@media (min-width: 768px) and (max-width: 1366px) {
 
   //----------HEADER----------//
   .header {
@@ -39,5 +39,19 @@
     .type {
       margin-bottom: 10px;
     }
+  }
+
+  //----------LOGIN-PAGE----------//
+  .login {
+    .login-right::before {
+            content: "";
+          position: absolute;
+          top: 14%;
+          left: -5%;
+          margin-left: -5px;
+          border-width: 15px;
+          border-style: solid;
+          border-color: transparent #eaeaea transparent transparent;
+        }
   }
 }
