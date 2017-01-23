@@ -87,6 +87,11 @@
 
   //----------LOGIN-PAGE----------//
   .login {
+    .login-left {
+      .button {
+        margin-bottom: 15px;
+      }
+    }
     .login-right::before {
             content: "";
           position: absolute;

@@ -348,6 +348,8 @@ body {
   .content-new-post .type-post {
     padding-left: 0px; }
 
+  .login .login-left .button {
+    margin-bottom: 15px; }
   .login .login-right::before {
     content: "";
     position: absolute;
@@ -873,41 +875,140 @@ html, body, .container {
 .vs-screen-bg {
   background-color: #313E4B; }
 
-.login-right {
+.login .login-left .image h1 {
+  color: #808B9C; }
+.login .login-left .image a:hover {
+  text-decoration: none; }
+.login .login-left h6 {
+  color: #48CFAD; }
+.login .login-left small {
+  color: #eaeaea; }
+.login .login-left .button-register {
+  background-color: #48CFAD;
+  border-color: #48CFAD;
+  color: #fff;
+  padding: 30px 20px; }
+.login .login-left .button-register:hover {
+  background-color: #7fddc5;
+  color: #fff; }
+.login .login-right {
   background-color: #eaeaea;
   padding: 15px;
   border-radius: 5px; }
-
-.login-right::before {
+  .login .login-right .login-form .form-group {
+    margin-bottom: 15px; }
+    .login .login-right .login-form .form-group i {
+      color: #999999;
+      padding: 10px;
+      margin: 5px 0px; }
+  .login .login-right .login-form .form-checkbox {
+    margin-bottom: 10px; }
+    .login .login-right .login-form .form-checkbox #show-pass {
+      margin-left: 15px; }
+    .login .login-right .login-form .form-checkbox span {
+      color: #808B9C; }
+  .login .login-right .login-form button {
+    background-color: #48CFAD;
+    border-color: #48CFAD;
+    color: #fff;
+    margin-bottom: 15px; }
+  .login .login-right .login-form button:hover {
+    background-color: #7fddc5; }
+  .login .login-right .login-form .footer-form p {
+    font-size: 10px;
+    color: #808B9C;
+    margin-top: 10px; }
+.login .login-right::before {
   content: "";
   position: absolute;
-  top: 14%;
+  top: 8%;
   left: -4%;
   margin-left: -5px;
   border-width: 15px;
   border-style: solid;
   border-color: transparent #eaeaea transparent transparent; }
 
-.login .image h1 {
+html, body, .container {
+  height: 100%;
+  width: 100%; }
+
+.container {
+  display: table;
+  vertical-align: middle; }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle; }
+
+.vs-screen-bg {
+  background-color: #313E4B; }
+
+.lock .lock-left .image h1 {
   color: #808B9C; }
-.login .image a:hover {
+.lock .lock-left .image a:hover {
   text-decoration: none; }
-.login h6 {
+.lock .lock-left h6 {
   color: #48CFAD; }
-.login .login-form .input-group {
-  margin-bottom: 15px; }
-  .login .login-form .input-group input[type=text] {
-    border: none; }
-  .login .login-form .input-group span {
-    background-color: #fff;
-    border-color: #F8F8F8;
-    color: #999999;
-    padding-left: 10px; }
-.login .login-form button {
+.lock .lock-left small {
+  color: #eaeaea; }
+.lock .lock-left .button-logout {
   background-color: #48CFAD;
   border-color: #48CFAD;
+  color: #fff;
+  padding: 30px 20px; }
+.lock .lock-left .button-logout:hover {
+  background-color: #7fddc5;
   color: #fff; }
-.login .login-form button:hover {
-  background-color: #7fddc5; }
+.lock .lock-right {
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 5px; }
+  .lock .lock-right .lock-form .heading-form {
+    margin-bottom: 20px; }
+    .lock .lock-right .lock-form .heading-form h3 {
+      color: #808B9C;
+      margin: 20px 0px; }
+      .lock .lock-right .lock-form .heading-form h3 span {
+        color: #48CFAD; }
+    .lock .lock-right .lock-form .heading-form img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; }
+  .lock .lock-right .lock-form .form-group {
+    margin-bottom: 15px; }
+    .lock .lock-right .lock-form .form-group i {
+      color: #999999;
+      padding: 10px;
+      margin: 5px 0px; }
+  .lock .lock-right .lock-form .form-checkbox {
+    margin-bottom: 10px; }
+    .lock .lock-right .lock-form .form-checkbox span {
+      color: #808B9C; }
+  .lock .lock-right .lock-form button {
+    background-color: #48CFAD;
+    border-color: #48CFAD;
+    color: #fff;
+    margin-bottom: 15px; }
+  .lock .lock-right .lock-form button:hover {
+    background-color: #7fddc5; }
+  .lock .lock-right .lock-form .footer-form p {
+    font-size: 10px;
+    color: #808B9C;
+    margin-top: 10px; }
+.lock .lock-right::before {
+  content: "";
+  position: absolute;
+  top: 6%;
+  left: -4%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #eaeaea transparent transparent; }
 
 /*# sourceMappingURL=custom.css.map */
