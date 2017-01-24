@@ -5,6 +5,7 @@
  */
 body {
   background-color: #313E4B;
+  height: 1100px;
   overflow-x: hidden; }
   body h1, body h2, body h3 {
     font-family: 'Open Sans', sans-serif;
@@ -47,7 +48,8 @@ body {
   .header .header-right .dropdown .dropdown-menu {
     top: 98%;
     width: 270px;
-    padding: 0px; }
+    padding: 0px;
+    padding: -10px; }
     .header .header-right .dropdown .dropdown-menu .header-notification, .header .header-right .dropdown .dropdown-menu .footer-notification {
       background-color: #808B9C; }
       .header .header-right .dropdown .dropdown-menu .header-notification li, .header .header-right .dropdown .dropdown-menu .footer-notification li {
@@ -84,7 +86,7 @@ body {
       color: #7DDCC4;
       text-decoration: none; }
   .header .header-right .dropdown .dropdown-notification {
-    left: -45px; }
+    left: -46px; }
   .header .header-right .dropdown .dropdown-menu#user {
     right: -1px;
     width: 200px; }
@@ -921,7 +923,7 @@ html, body, .container {
 .login .login-right::before {
   content: "";
   position: absolute;
-  top: 8%;
+  top: 9%;
   left: -4%;
   margin-left: -5px;
   border-width: 15px;

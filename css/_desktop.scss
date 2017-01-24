@@ -10,7 +10,8 @@
       font-weight: 700;
     }
     background-color: #313E4B;
-    overflow-x: hidden;
+      height: 1100px;
+      overflow-x: hidden;
   }
 
   //----------HEADER----------//
@@ -118,9 +119,10 @@
           top: 98%;
           width: 270px;
           padding: 0px;
+          padding: -10px;
         }
         .dropdown-notification {
-          left: -45px;
+          left: -46px;
         }
         .dropdown-menu#user {
           .header-dropdown-user {
