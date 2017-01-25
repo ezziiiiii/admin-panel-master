@@ -1,4 +1,4 @@
-//----------LOGIN PAGE----------//
+//----------FORGOT PAGE----------//
 html, body, .container {
             height: 100%;
             width: 100%;
@@ -21,11 +21,11 @@ html, body, .container {
             background-color: #313E4B;
         }
 
-        //----------LOGIN----------//
-        .login {
+        //----------FORGOT----------//
+        .forgot {
 
-            //----------LOGIN-LEFT----------//
-            .login-left {
+            //----------FORGOT-LEFT----------//
+            .forgot-left {
                 .image {
                     h1 {
                         color: #808B9C;
@@ -37,27 +37,27 @@ html, body, .container {
                 h6 {
                     color: #48CFAD;
                 }
-                h6.register {
+                h6.login {
                     color: #808B9C;
                 }
                 small {
                     color: #eaeaea;
                 }
-                .button-register {
+                .button-login {
                     background-color: #48CFAD;
                     border-color: #48CFAD;
                     color: #fff;
                     padding: 30px 20px;
                 }
-                .button-register:hover {
+                .button-login:hover {
                     background-color: #7fddc5;
                     color: #fff;
                 }
             }
 
-            //----------LOGIN-RIGHT----------//
-            .login-right {
-                .login-form {
+            //----------FORGOT-RIGHT----------//
+            .forgot-right {
+                .forgot-form {
                     .heading-form {
                         h3 {
                             color: #808B9C;
@@ -102,7 +102,7 @@ html, body, .container {
                 padding: 15px;
                 border-radius: 5px;
             }
-            .login-right::before {
+            .forgot-right::before {
                 content: "";
             position: absolute;
             top: 9%;
