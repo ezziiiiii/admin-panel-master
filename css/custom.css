@@ -878,7 +878,8 @@ html, body, .container {
   background-color: #313E4B; }
 
 .login .login-left .image h1 {
-  color: #808B9C; }
+  color: #808B9C;
+  margin: 10px 0px; }
 .login .login-left .image a:hover {
   text-decoration: none; }
 .login .login-left h6 {
@@ -901,7 +902,8 @@ html, body, .container {
   border-radius: 5px; }
   .login .login-right .login-form .heading-form h3 {
     color: #808B9C;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-top: 0px; }
   .login .login-right .login-form .form-group {
     margin-bottom: 15px; }
     .login .login-right .login-form .form-group i {
@@ -926,89 +928,6 @@ html, body, .container {
     color: #808B9C;
     margin-top: 10px; }
 .login .login-right::before {
-  content: "";
-  position: absolute;
-  top: 9%;
-  left: -4%;
-  margin-left: -5px;
-  border-width: 15px;
-  border-style: solid;
-  border-color: transparent #eaeaea transparent transparent; }
-
-html, body, .container {
-  height: 100%;
-  width: 100%; }
-
-.container {
-  display: table;
-  vertical-align: middle; }
-
-.col-center-block {
-  float: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-.vertical-center-row {
-  display: table-cell;
-  vertical-align: middle; }
-
-.vs-screen-bg {
-  background-color: #313E4B; }
-
-.lock .lock-left .image h1 {
-  color: #808B9C; }
-.lock .lock-left .image a:hover {
-  text-decoration: none; }
-.lock .lock-left h6 {
-  color: #48CFAD; }
-.lock .lock-left small {
-  color: #eaeaea; }
-.lock .lock-left .button-logout {
-  background-color: #48CFAD;
-  border-color: #48CFAD;
-  color: #fff;
-  padding: 30px 20px; }
-.lock .lock-left .button-logout:hover {
-  background-color: #7fddc5;
-  color: #fff; }
-.lock .lock-right {
-  background-color: #eaeaea;
-  padding: 15px;
-  border-radius: 5px; }
-  .lock .lock-right .lock-form .heading-form {
-    margin-bottom: 20px; }
-    .lock .lock-right .lock-form .heading-form h3 {
-      color: #808B9C;
-      margin: 20px 0px; }
-      .lock .lock-right .lock-form .heading-form h3 span {
-        color: #48CFAD; }
-    .lock .lock-right .lock-form .heading-form img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%; }
-  .lock .lock-right .lock-form .form-group {
-    margin-bottom: 15px; }
-    .lock .lock-right .lock-form .form-group i {
-      color: #999999;
-      padding: 10px;
-      margin: 5px 0px; }
-  .lock .lock-right .lock-form .form-checkbox {
-    margin-bottom: 10px; }
-    .lock .lock-right .lock-form .form-checkbox span {
-      color: #808B9C; }
-  .lock .lock-right .lock-form button {
-    background-color: #48CFAD;
-    border-color: #48CFAD;
-    color: #fff;
-    margin-bottom: 15px; }
-  .lock .lock-right .lock-form button:hover {
-    background-color: #7fddc5; }
-  .lock .lock-right .lock-form .footer-form p {
-    font-size: 10px;
-    color: #808B9C;
-    margin-top: 10px; }
-.lock .lock-right::before {
   content: "";
   position: absolute;
   top: 6%;
@@ -1039,8 +958,94 @@ html, body, .container {
 .vs-screen-bg {
   background-color: #313E4B; }
 
+.lock .lock-left .image h1 {
+  color: #808B9C;
+  margin: 10px 0px; }
+.lock .lock-left .image a:hover {
+  text-decoration: none; }
+.lock .lock-left h6 {
+  color: #48CFAD; }
+.lock .lock-left small {
+  color: #eaeaea; }
+.lock .lock-left .button-logout {
+  background-color: #48CFAD;
+  border-color: #48CFAD;
+  color: #fff;
+  padding: 30px 20px; }
+.lock .lock-left .button-logout:hover {
+  background-color: #7fddc5;
+  color: #fff; }
+.lock .lock-right {
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 5px; }
+  .lock .lock-right .lock-form .heading-form {
+    margin-bottom: 20px; }
+    .lock .lock-right .lock-form .heading-form h3 {
+      color: #808B9C;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+      .lock .lock-right .lock-form .heading-form h3 span {
+        color: #48CFAD; }
+    .lock .lock-right .lock-form .heading-form img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; }
+  .lock .lock-right .lock-form .form-group {
+    margin-bottom: 15px; }
+    .lock .lock-right .lock-form .form-group i {
+      color: #999999;
+      padding: 10px;
+      margin: 5px 0px; }
+  .lock .lock-right .lock-form .form-checkbox {
+    margin-bottom: 10px; }
+    .lock .lock-right .lock-form .form-checkbox span {
+      color: #808B9C; }
+  .lock .lock-right .lock-form button {
+    background-color: #48CFAD;
+    border-color: #48CFAD;
+    color: #fff;
+    margin-bottom: 15px; }
+  .lock .lock-right .lock-form button:hover {
+    background-color: #7fddc5; }
+  .lock .lock-right .lock-form .footer-form p {
+    font-size: 10px;
+    color: #808B9C;
+    margin-top: 10px; }
+.lock .lock-right::before {
+  content: "";
+  position: absolute;
+  top: 4%;
+  left: -4%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #eaeaea transparent transparent; }
+
+html, body, .container {
+  height: 100%;
+  width: 100%; }
+
+.container {
+  display: table;
+  vertical-align: middle; }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle; }
+
+.vs-screen-bg {
+  background-color: #313E4B; }
+
 .forgot .forgot-left .image h1 {
-  color: #808B9C; }
+  color: #808B9C;
+  margin: 10px 0px; }
 .forgot .forgot-left .image a:hover {
   text-decoration: none; }
 .forgot .forgot-left h6 {
@@ -1063,6 +1068,7 @@ html, body, .container {
   border-radius: 5px; }
   .forgot .forgot-right .forgot-form .heading-form h3 {
     color: #808B9C;
+    margin-top: 0px;
     margin-bottom: 20px; }
   .forgot .forgot-right .forgot-form .form-group {
     margin-bottom: 15px; }
@@ -1090,7 +1096,86 @@ html, body, .container {
 .forgot .forgot-right::before {
   content: "";
   position: absolute;
-  top: 9%;
+  top: 8%;
+  left: -4%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #eaeaea transparent transparent; }
+
+html, body, .container {
+  height: 100%;
+  width: 100%; }
+
+.container {
+  display: table;
+  vertical-align: middle; }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle; }
+
+.vs-screen-bg {
+  background-color: #313E4B; }
+
+.reset .reset-left .image h1 {
+  color: #808B9C;
+  margin: 10px 0px; }
+.reset .reset-left .image a:hover {
+  text-decoration: none; }
+.reset .reset-left h6 {
+  color: #48CFAD; }
+.reset .reset-left h6.register {
+  color: #808B9C; }
+.reset .reset-left small {
+  color: #eaeaea; }
+.reset .reset-left .button-register {
+  background-color: #48CFAD;
+  border-color: #48CFAD;
+  color: #fff;
+  padding: 30px 20px; }
+.reset .reset-left .button-register:hover {
+  background-color: #7fddc5;
+  color: #fff; }
+.reset .reset-right {
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 5px; }
+  .reset .reset-right .reset-form .heading-form h3 {
+    color: #808B9C;
+    margin-bottom: 20px;
+    margin-top: 0px; }
+  .reset .reset-right .reset-form .form-group {
+    margin-bottom: 15px; }
+    .reset .reset-right .reset-form .form-group i {
+      color: #999999;
+      padding: 10px;
+      margin: 5px 0px; }
+  .reset .reset-right .reset-form .form-checkbox {
+    margin-bottom: 10px; }
+    .reset .reset-right .reset-form .form-checkbox span {
+      color: #808B9C; }
+  .reset .reset-right .reset-form button {
+    background-color: #48CFAD;
+    border-color: #48CFAD;
+    color: #fff;
+    margin-bottom: 15px; }
+  .reset .reset-right .reset-form button:hover {
+    background-color: #7fddc5; }
+  .reset .reset-right .reset-form .footer-form p {
+    font-size: 10px;
+    color: #808B9C;
+    margin-top: 10px; }
+.reset .reset-right::before {
+  content: "";
+  position: absolute;
+  top: 5%;
   left: -4%;
   margin-left: -5px;
   border-width: 15px;

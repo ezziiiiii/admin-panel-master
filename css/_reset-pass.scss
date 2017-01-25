@@ -21,11 +21,11 @@ html, body, .container {
             background-color: #313E4B;
         }
 
-        //----------LOGIN----------//
-        .login {
+        //----------RESET-PASS----------//
+        .reset {
 
-            //----------LOGIN-LEFT----------//
-            .login-left {
+            //----------RESET-LEFT----------//
+            .reset-left {
                 .image {
                     h1 {
                         color: #808B9C;
@@ -56,9 +56,9 @@ html, body, .container {
                 }
             }
 
-            //----------LOGIN-RIGHT----------//
-            .login-right {
-                .login-form {
+            //----------RESET-RIGHT----------//
+            .reset-right {
+                .reset-form {
                     .heading-form {
                         h3 {
                             color: #808B9C;
@@ -75,9 +75,6 @@ html, body, .container {
                         margin-bottom: 15px;
                     }
                     .form-checkbox {
-                        #show-pass {
-                            margin-left: 15px;
-                        }
                         span {
                             color: #808B9C;
                         }
@@ -104,10 +101,10 @@ html, body, .container {
                 padding: 15px;
                 border-radius: 5px;
             }
-            .login-right::before {
+            .reset-right::before {
                 content: "";
             position: absolute;
-            top: 6%;
+            top: 5%;
             left: -4%;
             margin-left: -5px;
             border-width: 15px;

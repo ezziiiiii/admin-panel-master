@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Admin Panel</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--  jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.15.35/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- plugin textarea new post -->
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script src="js/text-area.js"></script>
+
+</head>
+
+<body class="vs-screen-bg">
+
+    <div class="reset container">
+        <div class="row vertical-center-row">
+            <div class="col-xs-12 col-sm-10 col-md-6 col-center-block">
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 reset-left">
+                        <div class="text-center logo">
+                            <div class="image">
+                                <a href=""><h1>MCS Admin</h1></a>
+                            </div>
+                            <h6>Welcome to <small>Admin Panel</small></h6>
+                            <h6 class="register">Don't have an account?</h6>
+                            <button type="button" class="btn button-register" href="#"><i class="fa fa-user-plus"></i> Register Now</button>
+                        </div>
+                    </div><!--RESET-LEFT-->
+                    <div class="col-sm-8 col-md-9 reset-right">
+                        <form class="reset-form form-horizontal">
+                            <div class="heading-form text-center">
+                                <h3>Reset Password</h3>
+                            </div>
+                            <div class="form-group has-feedback form-group-lg">
+                                <div class="col-sm-12">
+                                    <input type="password" class="form-control pass" placeholder="Old Password...">
+                                    <i class="fa fa-lock fa-lg form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback form-group-lg">
+                                <div class="col-sm-12">
+                                    <input type="password" class="form-control pass" placeholder="New Password...">
+                                    <i class="fa fa-lock fa-lg form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback form-group-lg">
+                                <div class="col-sm-12">
+                                    <input type="password" class="form-control pass" placeholder="Confirm Password...">
+                                    <i class="fa fa-lock fa-lg form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" class="show-pass" id="show-pass"> <span>Show password</span>
+                            </div>
+                            <button type="button" class="btn btn-default btn-lg btn-block" href="#"><i class="fa fa-floppy-o" aria-hidden="true"></i> Update Password</button>
+                            <div class="col-md-12 col-sm-12 text-center footer-form">
+                                <a href="#">Forget your password?</a>
+                                <p><i class="fa fa-copyright"></i> by Aldi | 2017</p>
+                            </div>
+                        </form><!--END OF RESET-FORM-->
+                    </div><!--RESET-RIGHT-->
+                </div>
+            </div><!--END OF COL-CENTER-BLOCK-->
+        </div><!--END OF VERTICAL-CENTER-ROW-->
+    </div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+
+<!-- Include jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Include Date Range Picker -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.15.35/js/bootstrap-datetimepicker.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        var date_input=$('input[name="date"]');
+        date_input.datetimepicker({
+            format: 'DD/MM/YYYY'
+        });
+
+        var time_input=$('input[name="time"]');
+        time_input.datetimepicker({
+            format: 'HH:mm'
+        });
+    });
+</script>
+
+<script type="text/javascript">
+   $(document).ready(function() {
+       $('.show-pass').click(function() {
+           if($(this).is(':checked')){
+               $('.pass').attr('type','text');
+           } else {
+               $('.pass').attr('type','password');
+           }
+       });
+   });
+</script>
+
+</body>
+</html>

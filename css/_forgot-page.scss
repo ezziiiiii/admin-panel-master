@@ -29,6 +29,7 @@ html, body, .container {
                 .image {
                     h1 {
                         color: #808B9C;
+                        margin: 10px 0px;
                     }
                     a:hover {
                         text-decoration: none;
@@ -61,6 +62,7 @@ html, body, .container {
                     .heading-form {
                         h3 {
                             color: #808B9C;
+                            margin-top: 0px;
                             margin-bottom: 20px;
                         }
                     }
@@ -105,7 +107,7 @@ html, body, .container {
             .forgot-right::before {
                 content: "";
             position: absolute;
-            top: 9%;
+            top: 8%;
             left: -4%;
             margin-left: -5px;
             border-width: 15px;
