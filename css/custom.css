@@ -1182,4 +1182,83 @@ html, body, .container {
   border-style: solid;
   border-color: transparent #eaeaea transparent transparent; }
 
+html, body, .container {
+  height: 100%;
+  width: 100%; }
+
+.container {
+  display: table;
+  vertical-align: middle; }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle; }
+
+.vs-screen-bg {
+  background-color: #313E4B; }
+
+.signup .signup-left .image h1 {
+  color: #808B9C;
+  margin: 10px 0px; }
+.signup .signup-left .image a:hover {
+  text-decoration: none; }
+.signup .signup-left h6 {
+  color: #48CFAD; }
+.signup .signup-left h6.login {
+  color: #808B9C; }
+.signup .signup-left small {
+  color: #eaeaea; }
+.signup .signup-left .button-login {
+  background-color: #48CFAD;
+  border-color: #48CFAD;
+  color: #fff;
+  padding: 30px 20px; }
+.signup .signup-left .button-login:hover {
+  background-color: #7fddc5;
+  color: #fff; }
+.signup .signup-right {
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 5px; }
+  .signup .signup-right .signup-form .heading-form h3 {
+    color: #808B9C;
+    margin-bottom: 20px;
+    margin-top: 0px; }
+  .signup .signup-right .signup-form .form-group {
+    margin-bottom: 15px; }
+    .signup .signup-right .signup-form .form-group i {
+      color: #999999;
+      padding: 10px;
+      margin: 5px 0px; }
+  .signup .signup-right .signup-form .form-checkbox {
+    margin-bottom: 10px; }
+    .signup .signup-right .signup-form .form-checkbox span {
+      color: #808B9C; }
+  .signup .signup-right .signup-form button {
+    background-color: #48CFAD;
+    border-color: #48CFAD;
+    color: #fff;
+    margin-bottom: 15px; }
+  .signup .signup-right .signup-form button:hover {
+    background-color: #7fddc5; }
+  .signup .signup-right .signup-form .footer-form p {
+    font-size: 10px;
+    color: #808B9C;
+    margin-top: 10px; }
+.signup .signup-right::before {
+  content: "";
+  position: absolute;
+  top: 4%;
+  left: -4%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #eaeaea transparent transparent; }
+
 /*# sourceMappingURL=custom.css.map */

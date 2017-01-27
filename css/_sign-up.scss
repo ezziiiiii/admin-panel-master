@@ -1,0 +1,114 @@
+//----------SIGNUP PAGE----------//
+html, body, .container {
+            height: 100%;
+            width: 100%;
+        }
+        .container {
+            display: table;
+            vertical-align: middle;
+        }
+        .col-center-block {
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .vertical-center-row {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .vs-screen-bg {
+            background-color: #313E4B;
+        }
+
+        //----------SIGNUP----------//
+        .signup {
+            
+            //----------SIGNUP-LEFT----------//
+            .signup-left {
+                .image {
+                    h1 {
+                        color: #808B9C;
+                        margin: 10px 0px;
+                    }
+                    a:hover {
+                        text-decoration: none;
+                    }
+                }
+                h6 {
+                    color: #48CFAD;
+                }
+                h6.login {
+                    color: #808B9C;
+                }
+                small {
+                    color: #eaeaea;
+                }
+                .button-login {
+                    background-color: #48CFAD;
+                    border-color: #48CFAD;
+                    color: #fff;
+                    padding: 30px 20px;
+                }
+                .button-login:hover {
+                    background-color: #7fddc5;
+                    color: #fff;
+                }
+            }
+
+             //----------SIGNUP-RIGHT----------//
+             .signup-right {
+                 .signup-form {
+                     .heading-form {
+                        h3 {
+                            color: #808B9C;
+                            margin-bottom: 20px;
+                            margin-top: 0px;
+                        }
+                    }
+                    .form-group {
+                        i {
+                            color: #999999;  
+                            padding: 10px;
+                            margin: 5px 0px;
+                        }
+                        margin-bottom: 15px;
+                    }
+                    .form-checkbox {
+                        span {
+                            color: #808B9C;
+                        }
+                        margin-bottom: 10px;
+                    }
+                    button {
+                        background-color: #48CFAD;
+                        border-color: #48CFAD;
+                        color: #fff;
+                        margin-bottom: 15px;
+                    }
+                    button:hover {
+                        background-color: #7fddc5;
+                    }
+                    .footer-form {
+                        p {
+                            font-size: 10px;
+                            color: #808B9C;
+                            margin-top: 10px;
+                        }
+                    }
+                 }
+                 background-color: #eaeaea;
+                 padding: 15px;
+                 border-radius: 5px;
+             }
+             .signup-right::before {
+                content: "";
+            position: absolute;
+            top: 4%;
+            left: -4%;
+            margin-left: -5px;
+            border-width: 15px;
+            border-style: solid;
+            border-color: transparent #eaeaea transparent transparent;
+            }
+        }
