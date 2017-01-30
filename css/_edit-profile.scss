@@ -1,0 +1,84 @@
+//----------EDIT-PROFILE----------//
+.content-edit-profile {
+    .edit-profile {
+        .header-edit-profile {
+            h3 {
+                color: #fff;
+                margin: 0px;
+            }
+            padding: 10px 20px;
+            border: 1px solid #48CFAD;
+            background-color: #48CFAD;
+            margin-bottom: 30px;
+        }
+        .body-edit-profile {
+            .content {
+                .change-pic {
+                    .picture {
+                        border: 3px dashed rgba(72, 207, 173, .7);
+                        width: 240px;
+                        height: 240px;
+                        margin-bottom: 15px;
+                        padding: 10px;
+                    }
+                    button {
+                        color: #fff;
+                        border: 1px solid #48CFAD;
+                        background-color: #48CFAD;
+                    }
+                    button:hover {
+                        background-color: #7fddc5;
+                    }
+                    padding: 10px 15px;
+                }
+                .form {
+                    table {
+                        td {
+                        padding: 10px 15px;
+                        }
+                        input[type=radio] {
+                        margin-right: 5px;
+                        }
+                        input[type=radio]#fmale {
+                        margin-left: 15px;
+                        }
+                        span {
+                        color: #808B9C;
+                        }
+                        i {
+                        color: rgba(72, 207, 173, .7);
+                        }
+                        button#add {
+                            i {
+                                color: #fff;
+                            }
+                            color: #fff;
+                            border: 1px solid #48CFAD;
+                            background-color: #48CFAD;
+                        }
+                        button#add:hover {
+                        background-color: #7fddc5;
+                        }
+                        button#reset {
+                            i {
+                                color: #fff;
+                            }
+                            background-color: #FFB65F;
+                            border-color: #FFB65F;
+                            color: #fff;
+                        }
+                        button#reset:hover {
+                        background-color: #FFCC8F;
+                        }
+                        width: 100%;
+                    }
+                }
+            }
+            overflow: hidden;
+        }
+        background-color: #fff;
+    }
+    .edit-profile:hover {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    }
+}
