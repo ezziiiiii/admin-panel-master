@@ -10,6 +10,9 @@ body {
   body h1, body h2, body h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700; }
+  body p, body a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; }
 
 .header .navbar-default {
   margin-bottom: 0px; }
@@ -24,8 +27,15 @@ body {
   border: none; }
   .header .navbar .container-fluid {
     padding: 0px; }
-.header .header-left h1 {
-  margin: 0px; }
+.header .header-left .menu-toggle {
+  padding: 15px 15px 15px 0px; }
+  .header .header-left .menu-toggle a#menu-toggle {
+    font-size: 20px;
+    color: #808b9c; }
+.header .header-left p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px; }
 .header .header-right {
   display: block; }
   .header .header-right .collapse li {
@@ -117,6 +127,8 @@ body {
     border-width: 15px;
     border-style: solid;
     border-color: transparent transparent #808b9c transparent; }
+  .header .header-right .dropdown a.dropdown-toggle:hover {
+    color: #EAEAEA; }
   .header .header-right .navbar-right img {
     width: 25px;
     height: 25px;
@@ -178,12 +190,17 @@ body {
 
 .sidebar-nav li > a.active {
   background-color: #48CFAD;
-  color: #fff; }
+  color: #EAEAEA; }
 
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
   color: #808b9c; }
+
+.sidebar-nav li span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px; }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
@@ -209,10 +226,14 @@ body {
     width: 60px;
     border-radius: 50%; }
   .user-media .user .font {
-    margin-top: 10px; }
+    margin-top: 5px; }
     .user-media .user .font p {
       color: #808b9c;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      font-weight: 700;
+      font-size: 18px; }
+  .user-media .user:hover p {
+    color: #EAEAEA; }
 
 .search {
   padding: 0px 15px;
