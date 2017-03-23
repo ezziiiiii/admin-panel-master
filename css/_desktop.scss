@@ -45,6 +45,9 @@
           font-size: 20px;
           color: #808b9c;
         }
+        a#menu-toggle:hover {
+          color: #EAEAEA;
+        }
         padding: 15px 15px 15px 0px;
       }
       p {
@@ -136,6 +139,7 @@
         }
         .dropdown-notification {
           left: -46px;
+          top: 57px;
         }
         .dropdown-menu#user {
           .header-dropdown-user {
@@ -165,6 +169,7 @@
             }
           }
           right: -1px;
+          top: 57px;
           width: 200px;
         }
         .dropdown-menu#user::before {

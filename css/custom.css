@@ -32,6 +32,8 @@ body {
   .header .header-left .menu-toggle a#menu-toggle {
     font-size: 20px;
     color: #808b9c; }
+  .header .header-left .menu-toggle a#menu-toggle:hover {
+    color: #EAEAEA; }
 .header .header-left p {
   font-size: 30px;
   font-weight: 700;
@@ -96,9 +98,11 @@ body {
       color: #7DDCC4;
       text-decoration: none; }
   .header .header-right .dropdown .dropdown-notification {
-    left: -46px; }
+    left: -46px;
+    top: 57px; }
   .header .header-right .dropdown .dropdown-menu#user {
     right: -1px;
+    top: 57px;
     width: 200px; }
     .header .header-right .dropdown .dropdown-menu#user .header-dropdown-user {
       color: #EAEAEA;
