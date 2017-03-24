@@ -200,6 +200,9 @@ body {
   text-decoration: none;
   color: #808b9c; }
 
+.sidebar-nav li #menu-post li {
+  border-bottom: 1px solid #808b9c; }
+
 .sidebar-nav li span {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
