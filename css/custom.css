@@ -1345,4 +1345,105 @@ html, body, .container {
   border-style: solid;
   border-color: transparent #eaeaea transparent transparent; }
 
+.content-ui-element .jenis-btn {
+  background-color: #fff;
+  margin-bottom: 30px; }
+  .content-ui-element .jenis-btn .header-jenis-btn {
+    padding: 10px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px; }
+    .content-ui-element .jenis-btn .header-jenis-btn h3 {
+      color: #fff;
+      margin: 0px; }
+  .content-ui-element .jenis-btn .body-jenis-btn table {
+    width: 100%; }
+    .content-ui-element .jenis-btn .body-jenis-btn table td {
+      padding: 10px; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-1 {
+      background-color: #48CFAD;
+      color: #fff; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-1:hover {
+      background-color: transparent;
+      border: 1px solid #48CFAD;
+      color: #808B96; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-2 {
+      background-color: #FFB65F;
+      color: #fff; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-2:hover {
+      background-color: transparent;
+      border: 1px solid #FFB65F;
+      color: #808B96; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-3 {
+      background-color: #DF6050;
+      color: #fff; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-3:hover {
+      background-color: transparent;
+      border: 1px solid #DF6050;
+      color: #808B96; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-4 {
+      background-color: transparent;
+      border: 1px solid #48CFAD;
+      color: #808B96; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-4:hover {
+      background-color: #48CFAD;
+      color: #fff; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-5 {
+      background-color: transparent;
+      border: 1px solid #FFB65F;
+      color: #808B96; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-5:hover {
+      background-color: #FFB65F;
+      color: #fff; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-6 {
+      background-color: transparent;
+      border: 1px solid #DF6050;
+      color: #808B96; }
+    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-6:hover {
+      background-color: #DF6050;
+      color: #fff; }
+.content-ui-element .jenis-btn:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+.content-ui-element .jenis-panel {
+  background-color: #fff; }
+  .content-ui-element .jenis-panel .header-jenis-panel {
+    padding: 10px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px; }
+    .content-ui-element .jenis-panel .header-jenis-panel h3 {
+      color: #fff;
+      margin: 0px; }
+  .content-ui-element .jenis-panel .body-jenis-panel td {
+    padding: 10px; }
+  .content-ui-element .jenis-panel .body-jenis-panel table {
+    width: 100%; }
+    .content-ui-element .jenis-panel .body-jenis-panel table .panel {
+      border: none; }
+      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-1 {
+        background-color: #48CFAD;
+        color: #fff; }
+      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-2 {
+        background-color: #FFB65F;
+        color: #fff; }
+      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-3 {
+        background-color: #DF6050;
+        color: #fff; }
+      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-4 {
+        background-color: transparent;
+        color: #808B96;
+        border: 1px solid #48CFAD; }
+      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-5 {
+        background-color: transparent;
+        color: #808B96;
+        border: 1px solid #FFB65F; }
+      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-6 {
+        background-color: transparent;
+        color: #808B96;
+        border: 1px solid #DF6050; }
+    .content-ui-element .jenis-panel .body-jenis-panel table .panel:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+.content-ui-element .jenis-panel:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
 /*# sourceMappingURL=custom.css.map */
