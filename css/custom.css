@@ -289,6 +289,54 @@ body {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
+.panel-custom {
+  background-color: #fff; }
+  .panel-custom .heading-1 {
+    padding: 10px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px; }
+    .panel-custom .heading-1 h3 {
+      color: #fff;
+      margin: 0px; }
+  .panel-custom .heading-2 {
+    padding: 10px 20px;
+    border: 1px solid #FFB65F;
+    background-color: #FFB65F;
+    margin-bottom: 30px; }
+    .panel-custom .heading-2 h3 {
+      color: #fff;
+      margin: 0px; }
+  .panel-custom .heading-3 {
+    padding: 10px 20px;
+    border: 1px solid #DF6050;
+    background-color: #DF6050;
+    margin-bottom: 30px; }
+    .panel-custom .heading-3 h3 {
+      color: #fff;
+      margin: 0px; }
+  .panel-custom .heading-4 {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #808B96;
+    border: 1px solid #48CFAD;
+    margin-bottom: 30px; }
+  .panel-custom .heading-5 {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #808B96;
+    border: 1px solid #FFB65F;
+    margin-bottom: 30px; }
+  .panel-custom .heading-6 {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #808B96;
+    border: 1px solid #DF6050;
+    margin-bottom: 30px; }
+  .panel-custom .panel-body-custom {
+    color: #000;
+    padding: 10px 20px; }
+
 @media (min-width: 768px) and (max-width: 1366px) {
   .header .header-right .menu-right .dropdown-notification {
     left: -34px; }
@@ -762,7 +810,7 @@ body {
       background-color: rgba(72, 207, 173, 0.7); }
 .content-user-profile .event .page-body {
   background-color: #fff;
-  padding: 15px 20px;
+  padding: 10px 20px;
   height: 730px;
   overflow-x: auto; }
   .content-user-profile .event .page-body .timeline-heading button {
@@ -1351,6 +1399,90 @@ html, body, .container {
   border-style: solid;
   border-color: transparent #eaeaea transparent transparent; }
 
+button.btn-1 {
+  background-color: #48CFAD;
+  color: #fff; }
+
+button.btn-1:hover {
+  background-color: transparent;
+  border: 1px solid #48CFAD;
+  color: #808B96; }
+
+button.btn-2 {
+  background-color: #FFB65F;
+  color: #fff; }
+
+button.btn-2:hover {
+  background-color: transparent;
+  border: 1px solid #FFB65F;
+  color: #808B96; }
+
+button.btn-3 {
+  background-color: #DF6050;
+  color: #fff; }
+
+button.btn-3:hover {
+  background-color: transparent;
+  border: 1px solid #DF6050;
+  color: #808B96; }
+
+button.btn-4 {
+  background-color: transparent;
+  border: 1px solid #48CFAD;
+  color: #808B96; }
+
+button.btn-4:hover {
+  background-color: #48CFAD;
+  color: #fff; }
+
+button.btn-5 {
+  background-color: transparent;
+  border: 1px solid #FFB65F;
+  color: #808B96; }
+
+button.btn-5:hover {
+  background-color: #FFB65F;
+  color: #fff; }
+
+button.btn-6 {
+  background-color: transparent;
+  border: 1px solid #DF6050;
+  color: #808B96; }
+
+button.btn-6:hover {
+  background-color: #DF6050;
+  color: #fff; }
+
+.heading-1 {
+  background-color: #48CFAD;
+  color: #fff; }
+
+.heading-2 {
+  background-color: #FFB65F;
+  color: #fff; }
+
+.heading-3 {
+  background-color: #DF6050;
+  color: #fff; }
+
+.heading-4 {
+  background-color: transparent;
+  color: #808B96;
+  border: 1px solid #48CFAD; }
+
+.heading-5 {
+  background-color: transparent;
+  color: #808B96;
+  border: 1px solid #FFB65F; }
+
+.heading-6 {
+  background-color: transparent;
+  color: #808B96;
+  border: 1px solid #DF6050; }
+
+.panel-shadow:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
 .content-ui-element .jenis-btn {
   background-color: #fff;
   margin-bottom: 30px; }
@@ -1366,48 +1498,6 @@ html, body, .container {
     width: 100%; }
     .content-ui-element .jenis-btn .body-jenis-btn table td {
       padding: 10px; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-1 {
-      background-color: #48CFAD;
-      color: #fff; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-1:hover {
-      background-color: transparent;
-      border: 1px solid #48CFAD;
-      color: #808B96; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-2 {
-      background-color: #FFB65F;
-      color: #fff; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-2:hover {
-      background-color: transparent;
-      border: 1px solid #FFB65F;
-      color: #808B96; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-3 {
-      background-color: #DF6050;
-      color: #fff; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-3:hover {
-      background-color: transparent;
-      border: 1px solid #DF6050;
-      color: #808B96; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-4 {
-      background-color: transparent;
-      border: 1px solid #48CFAD;
-      color: #808B96; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-4:hover {
-      background-color: #48CFAD;
-      color: #fff; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-5 {
-      background-color: transparent;
-      border: 1px solid #FFB65F;
-      color: #808B96; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-5:hover {
-      background-color: #FFB65F;
-      color: #fff; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-6 {
-      background-color: transparent;
-      border: 1px solid #DF6050;
-      color: #808B96; }
-    .content-ui-element .jenis-btn .body-jenis-btn table button.btn-6:hover {
-      background-color: #DF6050;
-      color: #fff; }
 .content-ui-element .jenis-btn:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 .content-ui-element .jenis-panel {
@@ -1426,29 +1516,6 @@ html, body, .container {
     width: 100%; }
     .content-ui-element .jenis-panel .body-jenis-panel table .panel {
       border: none; }
-      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-1 {
-        background-color: #48CFAD;
-        color: #fff; }
-      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-2 {
-        background-color: #FFB65F;
-        color: #fff; }
-      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-3 {
-        background-color: #DF6050;
-        color: #fff; }
-      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-4 {
-        background-color: transparent;
-        color: #808B96;
-        border: 1px solid #48CFAD; }
-      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-5 {
-        background-color: transparent;
-        color: #808B96;
-        border: 1px solid #FFB65F; }
-      .content-ui-element .jenis-panel .body-jenis-panel table .panel .heading-6 {
-        background-color: transparent;
-        color: #808B96;
-        border: 1px solid #DF6050; }
-    .content-ui-element .jenis-panel .body-jenis-panel table .panel:hover {
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 .content-ui-element .jenis-panel:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
