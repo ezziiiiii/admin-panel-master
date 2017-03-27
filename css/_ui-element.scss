@@ -1,3 +1,92 @@
+//----------JENIS BUTTON----------//
+    button.btn-1 {
+        background-color: #48CFAD;
+        color: #fff;
+    }
+    button.btn-1:hover {
+        background-color: transparent;
+        border: 1px solid #48CFAD;
+        color: #808B96;
+    }
+    button.btn-2 {
+        background-color: #FFB65F;
+        color: #fff;
+    }
+    button.btn-2:hover {
+        background-color: transparent;
+        border: 1px solid #FFB65F;
+        color: #808B96;
+    }
+    button.btn-3 {
+        background-color: #DF6050;
+        color: #fff;
+    }
+    button.btn-3:hover {
+        background-color: transparent;
+        border: 1px solid #DF6050;
+        color: #808B96;
+    }
+    button.btn-4 {
+        background-color: transparent;
+        border: 1px solid #48CFAD;
+        color: #808B96;
+    }
+    button.btn-4:hover {
+        background-color: #48CFAD;
+        color: #fff;
+    }
+    button.btn-5 {
+        background-color: transparent;
+        border: 1px solid #FFB65F;
+        color: #808B96;
+    }
+    button.btn-5:hover {
+        background-color: #FFB65F;
+        color: #fff;
+    }
+    button.btn-6 {
+        background-color: transparent;
+        border: 1px solid #DF6050;
+        color: #808B96;
+    }
+    button.btn-6:hover {
+        background-color: #DF6050;
+        color: #fff;
+    }
+
+//----------JENIS HEADING PANEL----------//
+    .heading-1 {
+        background-color: #48CFAD;
+        color: #fff;
+    }
+    .heading-2 {
+        background-color: #FFB65F;
+        color: #fff;
+    }
+    .heading-3 {
+        background-color: #DF6050;
+        color: #fff;
+    }
+    .heading-4 {
+        background-color: transparent;
+        color: #808B96;
+        border: 1px solid #48CFAD;
+    }
+    .heading-5 {
+        background-color: transparent;
+        color: #808B96;
+        border: 1px solid #FFB65F;
+    }
+    .heading-6 {
+        background-color: transparent;
+        color: #808B96;
+        border: 1px solid #DF6050;
+    }
+
+    .panel-shadow:hover {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    }
+
 //----------UI-ELEMENT----------//
 .content-ui-element {
     .jenis-btn {
@@ -16,60 +105,6 @@
                 td {
                     padding: 10px;
                 }
-                button.btn-1 {
-                    background-color: #48CFAD;
-                    color: #fff;
-                }
-                button.btn-1:hover {
-                    background-color: transparent;
-                    border: 1px solid #48CFAD;
-                    color: #808B96;
-                }
-                button.btn-2 {
-                    background-color: #FFB65F;
-                    color: #fff;
-                }
-                button.btn-2:hover {
-                    background-color: transparent;
-                    border: 1px solid #FFB65F;
-                    color: #808B96;
-                }
-                button.btn-3 {
-                    background-color: #DF6050;
-                    color: #fff;
-                }
-                button.btn-3:hover {
-                    background-color: transparent;
-                    border: 1px solid #DF6050;
-                    color: #808B96;
-                }
-                button.btn-4 {
-                    background-color: transparent;
-                    border: 1px solid #48CFAD;
-                    color: #808B96;
-                }
-                button.btn-4:hover {
-                    background-color: #48CFAD;
-                    color: #fff;
-                }
-                button.btn-5 {
-                    background-color: transparent;
-                    border: 1px solid #FFB65F;
-                    color: #808B96;
-                }
-                button.btn-5:hover {
-                    background-color: #FFB65F;
-                    color: #fff;
-                }
-                button.btn-6 {
-                    background-color: transparent;
-                    border: 1px solid #DF6050;
-                    color: #808B96;
-                }
-                button.btn-6:hover {
-                    background-color: #DF6050;
-                    color: #fff;
-                }
               width: 100%;  
             }
         }
@@ -79,8 +114,6 @@
     .jenis-btn:hover {
         box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
     }
-
-
     .jenis-panel {
         .header-jenis-panel {
             h3 {
@@ -98,37 +131,7 @@
             }
             table {
                 .panel {
-                    .heading-1 {
-                        background-color: #48CFAD;
-                        color: #fff;
-                    }
-                    .heading-2 {
-                        background-color: #FFB65F;
-                        color: #fff;
-                    }
-                    .heading-3 {
-                        background-color: #DF6050;
-                        color: #fff;
-                    }
-                    .heading-4 {
-                        background-color: transparent;
-                        color: #808B96;
-                        border: 1px solid #48CFAD;
-                    }
-                    .heading-5 {
-                        background-color: transparent;
-                        color: #808B96;
-                        border: 1px solid #FFB65F;
-                    }
-                    .heading-6 {
-                        background-color: transparent;
-                        color: #808B96;
-                        border: 1px solid #DF6050;
-                    }
                     border: none;
-                }
-                .panel:hover {
-                    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
                 }
                 width: 100%;
             }
