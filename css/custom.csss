@@ -289,6 +289,54 @@ body {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
+.panel-custom {
+  background-color: #fff; }
+  .panel-custom .heading-1 {
+    padding: 10px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px; }
+    .panel-custom .heading-1 h3 {
+      color: #fff;
+      margin: 0px; }
+  .panel-custom .heading-2 {
+    padding: 10px 20px;
+    border: 1px solid #FFB65F;
+    background-color: #FFB65F;
+    margin-bottom: 30px; }
+    .panel-custom .heading-2 h3 {
+      color: #fff;
+      margin: 0px; }
+  .panel-custom .heading-3 {
+    padding: 10px 20px;
+    border: 1px solid #DF6050;
+    background-color: #DF6050;
+    margin-bottom: 30px; }
+    .panel-custom .heading-3 h3 {
+      color: #fff;
+      margin: 0px; }
+  .panel-custom .heading-4 {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #808B96;
+    border: 1px solid #48CFAD;
+    margin-bottom: 30px; }
+  .panel-custom .heading-5 {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #808B96;
+    border: 1px solid #FFB65F;
+    margin-bottom: 30px; }
+  .panel-custom .heading-6 {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #808B96;
+    border: 1px solid #DF6050;
+    margin-bottom: 30px; }
+  .panel-custom .panel-body-custom {
+    color: #000;
+    padding: 10px 20px; }
+
 @media (min-width: 768px) and (max-width: 1366px) {
   .header .header-right .menu-right .dropdown-notification {
     left: -34px; }
@@ -762,7 +810,7 @@ body {
       background-color: rgba(72, 207, 173, 0.7); }
 .content-user-profile .event .page-body {
   background-color: #fff;
-  padding: 15px 20px;
+  padding: 10px 20px;
   height: 730px;
   overflow-x: auto; }
   .content-user-profile .event .page-body .timeline-heading button {
