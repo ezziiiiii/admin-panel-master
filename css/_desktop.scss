@@ -397,6 +397,7 @@
     }
   }
 
+  //----------JENIS-PANEL----------//
   .panel-custom {
     .heading-1 {
       h3 {
@@ -407,6 +408,7 @@
       border: 1px solid #48CFAD;
       background-color: #48CFAD;
       margin-bottom: 30px;
+      color: #fff;
     }
     .heading-2 {
       h3 {
@@ -417,6 +419,7 @@
       border: 1px solid #FFB65F;
       background-color: #FFB65F;
       margin-bottom: 30px;
+      color: #fff;
     }
     .heading-3 {
       h3 {
@@ -427,6 +430,7 @@
       border: 1px solid #DF6050;
       background-color: #DF6050;
       margin-bottom: 30px;
+      color: #fff;
     }
     .heading-4 {
         padding: 10px 20px;
@@ -450,10 +454,67 @@
         margin-bottom: 30px;
     }
     .panel-body-custom {
-      color: #000;
+      color: #808B96;
       padding: 10px 20px;
     }
     background-color: #fff;
   }
+  .panel-custom:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+  }
 
-
+  //----------JENIS-BUTTON----------//
+  button.btn-1 {
+      background-color: #48CFAD;
+      color: #fff;
+  }
+  button.btn-1:hover {
+      background-color: transparent;
+      border: 1px solid #48CFAD;
+      color: #808B96;
+  }
+  button.btn-2 {
+      background-color: #FFB65F;
+      color: #fff;
+  }
+  button.btn-2:hover {
+      background-color: transparent;
+      border: 1px solid #FFB65F;
+      color: #808B96;
+  }
+  button.btn-3 {
+      background-color: #DF6050;
+      color: #fff;
+  }
+  button.btn-3:hover {
+      background-color: transparent;
+      border: 1px solid #DF6050;
+      color: #808B96;
+  }
+  button.btn-4 {
+      background-color: transparent;
+      border: 1px solid #48CFAD;
+      color: #808B96;
+  }
+  button.btn-4:hover {
+      background-color: #48CFAD;
+      color: #fff;
+  }
+  button.btn-5 {
+      background-color: transparent;
+      border: 1px solid #FFB65F;
+      color: #808B96;
+  }
+  button.btn-5:hover {
+      background-color: #FFB65F;
+      color: #fff;
+  }
+  button.btn-6 {
+      background-color: transparent;
+      border: 1px solid #DF6050;
+      color: #808B96;
+  }
+  button.btn-6:hover {
+      background-color: #DF6050;
+      color: #fff;
+  }

@@ -295,7 +295,8 @@ body {
     padding: 10px 20px;
     border: 1px solid #48CFAD;
     background-color: #48CFAD;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #fff; }
     .panel-custom .heading-1 h3 {
       color: #fff;
       margin: 0px; }
@@ -303,7 +304,8 @@ body {
     padding: 10px 20px;
     border: 1px solid #FFB65F;
     background-color: #FFB65F;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #fff; }
     .panel-custom .heading-2 h3 {
       color: #fff;
       margin: 0px; }
@@ -311,7 +313,8 @@ body {
     padding: 10px 20px;
     border: 1px solid #DF6050;
     background-color: #DF6050;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #fff; }
     .panel-custom .heading-3 h3 {
       color: #fff;
       margin: 0px; }
@@ -334,8 +337,65 @@ body {
     border: 1px solid #DF6050;
     margin-bottom: 30px; }
   .panel-custom .panel-body-custom {
-    color: #000;
+    color: #808B96;
     padding: 10px 20px; }
+
+.panel-custom:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
+button.btn-1 {
+  background-color: #48CFAD;
+  color: #fff; }
+
+button.btn-1:hover {
+  background-color: transparent;
+  border: 1px solid #48CFAD;
+  color: #808B96; }
+
+button.btn-2 {
+  background-color: #FFB65F;
+  color: #fff; }
+
+button.btn-2:hover {
+  background-color: transparent;
+  border: 1px solid #FFB65F;
+  color: #808B96; }
+
+button.btn-3 {
+  background-color: #DF6050;
+  color: #fff; }
+
+button.btn-3:hover {
+  background-color: transparent;
+  border: 1px solid #DF6050;
+  color: #808B96; }
+
+button.btn-4 {
+  background-color: transparent;
+  border: 1px solid #48CFAD;
+  color: #808B96; }
+
+button.btn-4:hover {
+  background-color: #48CFAD;
+  color: #fff; }
+
+button.btn-5 {
+  background-color: transparent;
+  border: 1px solid #FFB65F;
+  color: #808B96; }
+
+button.btn-5:hover {
+  background-color: #FFB65F;
+  color: #fff; }
+
+button.btn-6 {
+  background-color: transparent;
+  border: 1px solid #DF6050;
+  color: #808B96; }
+
+button.btn-6:hover {
+  background-color: #DF6050;
+  color: #fff; }
 
 @media (min-width: 768px) and (max-width: 1366px) {
   .header .header-right .menu-right .dropdown-notification {
@@ -1398,90 +1458,6 @@ html, body, .container {
   border-width: 15px;
   border-style: solid;
   border-color: transparent #eaeaea transparent transparent; }
-
-button.btn-1 {
-  background-color: #48CFAD;
-  color: #fff; }
-
-button.btn-1:hover {
-  background-color: transparent;
-  border: 1px solid #48CFAD;
-  color: #808B96; }
-
-button.btn-2 {
-  background-color: #FFB65F;
-  color: #fff; }
-
-button.btn-2:hover {
-  background-color: transparent;
-  border: 1px solid #FFB65F;
-  color: #808B96; }
-
-button.btn-3 {
-  background-color: #DF6050;
-  color: #fff; }
-
-button.btn-3:hover {
-  background-color: transparent;
-  border: 1px solid #DF6050;
-  color: #808B96; }
-
-button.btn-4 {
-  background-color: transparent;
-  border: 1px solid #48CFAD;
-  color: #808B96; }
-
-button.btn-4:hover {
-  background-color: #48CFAD;
-  color: #fff; }
-
-button.btn-5 {
-  background-color: transparent;
-  border: 1px solid #FFB65F;
-  color: #808B96; }
-
-button.btn-5:hover {
-  background-color: #FFB65F;
-  color: #fff; }
-
-button.btn-6 {
-  background-color: transparent;
-  border: 1px solid #DF6050;
-  color: #808B96; }
-
-button.btn-6:hover {
-  background-color: #DF6050;
-  color: #fff; }
-
-.heading-1 {
-  background-color: #48CFAD;
-  color: #fff; }
-
-.heading-2 {
-  background-color: #FFB65F;
-  color: #fff; }
-
-.heading-3 {
-  background-color: #DF6050;
-  color: #fff; }
-
-.heading-4 {
-  background-color: transparent;
-  color: #808B96;
-  border: 1px solid #48CFAD; }
-
-.heading-5 {
-  background-color: transparent;
-  color: #808B96;
-  border: 1px solid #FFB65F; }
-
-.heading-6 {
-  background-color: transparent;
-  color: #808B96;
-  border: 1px solid #DF6050; }
-
-.panel-shadow:hover {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
 .content-ui-element .jenis-btn {
   background-color: #fff;
