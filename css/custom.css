@@ -1495,4 +1495,97 @@ html, body, .container {
 .content-ui-element .jenis-panel:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
 
+.content-user-page {
+  display: inline-block;
+  width: 100%; }
+  .content-user-page .menu-user-page {
+    padding: 0px;
+    margin-bottom: 10px; }
+    .content-user-page .menu-user-page .pull-left {
+      padding: 0px; }
+    .content-user-page .menu-user-page .pull-left .nav-pills > li.active > a, .content-user-page .menu-user-page .pull-left .nav-pills > li.active > a:focus, .content-user-page .menu-user-page .pull-left .nav-pills > li.active > a:hover {
+      border: 1px solid #48CFAD;
+      background-color: #48CFAD;
+      color: #fff; }
+      .content-user-page .menu-user-page .pull-left .nav-pills > li.active > a span, .content-user-page .menu-user-page .pull-left .nav-pills > li.active > a:focus span, .content-user-page .menu-user-page .pull-left .nav-pills > li.active > a:hover span {
+        color: #808b9c; }
+    .content-user-page .menu-user-page .pull-left a {
+      color: #808b9c; }
+    .content-user-page .menu-user-page .pull-left a:hover {
+      color: #fff;
+      border: 1px solid #48CFAD;
+      background-color: #48CFAD; }
+      .content-user-page .menu-user-page .pull-left a:hover span {
+        background-color: #fff;
+        color: #808b9c; }
+  .content-user-page .filter-user {
+    padding: 0px;
+    margin-bottom: 10px;
+    height: auto; }
+    .content-user-page .filter-user .selectpicker {
+      padding: 2px 5px;
+      border: 1px solid #939393;
+      border-radius: 3px;
+      color: #808b9c; }
+      .content-user-page .filter-user .selectpicker option {
+        padding: 2px 5px; }
+    .content-user-page .filter-user button {
+      padding: 4px 6px;
+      color: #fff;
+      border: 1px solid #48CFAD;
+      background-color: #48CFAD; }
+    .content-user-page .filter-user button:hover {
+      background-color: rgba(72, 207, 173, 0.7); }
+    .content-user-page .filter-user .action {
+      padding: 0px;
+      height: 34px; }
+      .content-user-page .filter-user .action td {
+        padding-right: 5px;
+        height: 34px; }
+        .content-user-page .filter-user .action td .selectpicker {
+          height: 34px; }
+        .content-user-page .filter-user .action td button {
+          height: 34px; }
+    .content-user-page .filter-user .search {
+      padding: 0px;
+      margin: 0px; }
+      .content-user-page .filter-user .search button {
+        color: #fff;
+        border: 1px solid #48CFAD;
+        background-color: #48CFAD;
+        padding: 6px 12px; }
+      .content-user-page .filter-user .search button:hover {
+        background-color: rgba(72, 207, 173, 0.7); }
+  .content-user-page .list-user {
+    border: 1px solid #EAEAEA;
+    padding: 0px;
+    margin-bottom: 10px; }
+    .content-user-page .list-user table {
+      background-color: #fff; }
+      .content-user-page .list-user table td, .content-user-page .list-user table th {
+        padding: 10px; }
+      .content-user-page .list-user table .ganjil {
+        background-color: #fff;
+        color: #808b9c; }
+      .content-user-page .list-user table .genap {
+        background-color: #48CFAD;
+        color: #fff; }
+    .content-user-page .list-user table:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+    .content-user-page .list-user p {
+      margin: 0px; }
+  .content-user-page .total-post td {
+    padding-right: 10px; }
+  .content-user-page .total-post p, .content-user-page .total-post i {
+    margin: 0px;
+    color: #808b9c; }
+  .content-user-page .total-post a {
+    color: #808b9c;
+    padding: 4px 6px;
+    border-radius: 4px; }
+  .content-user-page .total-post a:hover {
+    text-decoration: none;
+    background-color: #48CFAD;
+    color: #fff; }
+
 /*# sourceMappingURL=custom.css.map */
