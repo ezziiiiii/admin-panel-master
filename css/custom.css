@@ -521,12 +521,6 @@ button.btn-6:hover {
       .content-post .menu-post .pull-left a:hover span {
         background-color: #fff;
         color: #808b9c; }
-    .content-post .menu-post .pull-right button {
-      color: #fff;
-      border: 1px solid #48CFAD;
-      background-color: #48CFAD; }
-    .content-post .menu-post .pull-right button:hover {
-      background-color: rgba(72, 207, 173, 0.7); }
   .content-post .filter-post, .content-post .total-post {
     padding: 0px;
     margin-bottom: 10px; }
@@ -544,23 +538,15 @@ button.btn-6:hover {
       background-color: #48CFAD; }
     .content-post .filter-post button:hover, .content-post .total-post button:hover {
       background-color: rgba(72, 207, 173, 0.7); }
-    .content-post .filter-post .action, .content-post .filter-post .type, .content-post .filter-post .total-post, .content-post .total-post .action, .content-post .total-post .type, .content-post .total-post .total-post {
+    .content-post .filter-post .action, .content-post .filter-post .type, .content-post .total-post .action, .content-post .total-post .type {
       padding: 0px; }
-      .content-post .filter-post .action td, .content-post .filter-post .type td, .content-post .filter-post .total-post td, .content-post .total-post .action td, .content-post .total-post .type td, .content-post .total-post .total-post td {
+      .content-post .filter-post .action td, .content-post .filter-post .type td, .content-post .total-post .action td, .content-post .total-post .type td {
         padding-right: 5px; }
-    .content-post .filter-post .total-post, .content-post .total-post .total-post {
-      margin-bottom: 0px; }
-      .content-post .filter-post .total-post p, .content-post .filter-post .total-post i, .content-post .total-post .total-post p, .content-post .total-post .total-post i {
-        margin: 0px;
-        color: #808b9c; }
-      .content-post .filter-post .total-post a, .content-post .total-post .total-post a {
-        color: #808b9c;
-        padding: 4px 6px;
-        border-radius: 4px; }
-      .content-post .filter-post .total-post a:hover, .content-post .total-post .total-post a:hover {
-        text-decoration: none;
-        background-color: #48CFAD;
-        color: #fff; }
+    .content-post .filter-post .search, .content-post .total-post .search {
+      margin-bottom: 0px;
+      padding: 0px; }
+      .content-post .filter-post .search .input-group button, .content-post .total-post .search .input-group button {
+        padding: 6px 10px; }
   .content-post .list-post {
     border: 1px solid #EAEAEA;
     padding: 0px;

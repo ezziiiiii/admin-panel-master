@@ -26,16 +26,6 @@
           background-color: #48CFAD;
         }
       }
-      .pull-right {
-        button {
-          color: #fff;
-          border: 1px solid #48CFAD;
-          background-color: #48CFAD;
-        }
-        button:hover{
-          background-color: rgba(72, 207, 173, .7);
-        }
-      }
       padding: 0px;
       margin-bottom: 10px;
     }
@@ -58,28 +48,20 @@
       button:hover {
         background-color: rgba(72, 207, 173, .7);
       }
-      .action, .type, .total-post {
+      .action, .type {
         td {
           padding-right: 5px;
         }
         padding: 0px;
       }
-      .total-post {
-        p, i {
-          margin: 0px;
-          color: #808b9c;
-        }
-        a {
-          color: #808b9c;
-          padding: 4px 6px;
-          border-radius: 4px;
-        }
-        a:hover {
-          text-decoration: none;
-          background-color: #48CFAD;
-          color: #fff;
+      .search {
+        .input-group {
+          button {
+            padding: 6px 10px;
+          }
         }
         margin-bottom: 0px;
+        padding: 0px;
       }
       padding: 0px;
       margin-bottom: 10px;
