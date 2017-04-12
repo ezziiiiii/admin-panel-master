@@ -806,6 +806,8 @@ button.btn-6:hover {
       .content-user-profile .user-profile .body-user-profile .p-i-left .image img {
         position: relative;
         left: 135px;
+        width: 225px;
+        height: 225px;
         border-radius: 50%;
         background-color: transparent; }
     .content-user-profile .user-profile .body-user-profile .p-i-left .status h5 {
