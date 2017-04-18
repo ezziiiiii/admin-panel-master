@@ -41,9 +41,14 @@
         .body-gallery {
             .image {
                 img {
-                    width: 100%;
+                    max-width: 205px;
+                    max-height: 205px;
                 }
                 margin-bottom: 20px;
+                max-height: 250px;
+                border: 7px double #808B9C;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
         }
         background-color: #fff;
