@@ -1,0 +1,51 @@
+//----------CONTENT-GALLERY----------//
+.content-gallery {
+
+    //----------GALLERY----------//
+    .gallery {
+        .header-gallery {
+            h3 {
+            color: #fff;
+            margin: 0px;
+        }
+        button.add-photo {
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            padding: 0px;
+        }
+        .tambah {
+            .modal-dialog {
+                .modal-body {
+                    img {
+                        width: 100px;
+                        height: 100px;
+                        margin-right: 5px;
+                    }
+                    button.add {
+                        width: 100px;
+                        height: 100px;
+                        border: 3px dashed #808B9C;
+                        color: #808B9C;
+                    }
+                }
+            }
+        }
+        padding: 10px 20px;
+        border: 1px solid #48CFAD;
+        background-color: #48CFAD;
+        margin-bottom: 30px;
+        overflow: hidden;
+        }
+
+        .body-gallery {
+            .image {
+                img {
+                    width: 100%;
+                }
+                margin-bottom: 20px;
+            }
+        }
+        background-color: #fff;
+    }
+}

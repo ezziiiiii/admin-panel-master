@@ -1576,4 +1576,34 @@ html, body, .container {
     background-color: #48CFAD;
     color: #fff; }
 
+.content-gallery .gallery {
+  background-color: #fff; }
+  .content-gallery .gallery .header-gallery {
+    padding: 10px 20px;
+    border: 1px solid #48CFAD;
+    background-color: #48CFAD;
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .content-gallery .gallery .header-gallery h3 {
+      color: #fff;
+      margin: 0px; }
+    .content-gallery .gallery .header-gallery button.add-photo {
+      color: #fff;
+      background-color: transparent;
+      border: none;
+      padding: 0px; }
+    .content-gallery .gallery .header-gallery .tambah .modal-dialog .modal-body img {
+      width: 100px;
+      height: 100px;
+      margin-right: 5px; }
+    .content-gallery .gallery .header-gallery .tambah .modal-dialog .modal-body button.add {
+      width: 100px;
+      height: 100px;
+      border: 3px dashed #808B9C;
+      color: #808B9C; }
+  .content-gallery .gallery .body-gallery .image {
+    margin-bottom: 20px; }
+    .content-gallery .gallery .body-gallery .image img {
+      width: 100%; }
+
 /*# sourceMappingURL=custom.css.map */
