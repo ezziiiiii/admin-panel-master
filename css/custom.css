@@ -1603,7 +1603,7 @@ html, body, .container {
       color: #808B9C; }
   .content-gallery .gallery .body-gallery .image {
     margin-bottom: 20px;
-    max-height: 250px;
+    height: 250px;
     border: 7px double #808B9C;
     padding-top: 10px;
     padding-bottom: 10px; }
