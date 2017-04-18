@@ -1606,4 +1606,10 @@ html, body, .container {
     .content-gallery .gallery .body-gallery .image img {
       width: 100%; }
 
+.eror h2, .eror h4, .eror p {
+  color: #eaeaea; }
+.eror img {
+  width: 200px;
+  height: 128px; }
+
 /*# sourceMappingURL=custom.css.map */
