@@ -43,24 +43,38 @@
                 img {
                     width: 205px;
                     height: 205px;
-                    margin-bottom: 5px;
                 }
-                .name-img {
-                    p {
-                        margin-bottom: 0px;
-                        font-size: 16px;
+                .footer-img {
+                    .name-img {
+                        p {
+                            margin-bottom: 0px;
+                        }
+                        padding: 17px 12px;
                     }
-                    padding: 10px;
-                    background-color: #eaeaea
-                    ;
+                    .btn-active {
+                        button {
+                            background-color: #48cfad;
+                            color: #fff
+                            ;
+                        }
+                        button:hover {
+                            background-color: rgba(72, 207, 173, .7);
+                            color: #fff
+                            ;
+                        }
+                        padding: 10px;
+                    }
+                    background-color: #eaeaea;
                 }
                 .active {
+                    .btn-active {
+                        background-color: #485868;
+                    }
                     background-color: #313E4B;
                     color: #fff
                     ;
                 }
                 margin-bottom: 20px;
-                text-align: center;
                 padding: 0px 10px;
             }
         }
