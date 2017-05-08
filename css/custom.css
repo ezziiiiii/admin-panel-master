@@ -1607,7 +1607,17 @@ html, body, .container {
     padding: 0px 10px; }
     .content-gallery .gallery .body-gallery .image img {
       width: 205px;
-      height: 205px; }
+      height: 205px;
+      margin-bottom: 5px; }
+    .content-gallery .gallery .body-gallery .image .name-img {
+      padding: 10px;
+      background-color: #eaeaea; }
+      .content-gallery .gallery .body-gallery .image .name-img p {
+        margin-bottom: 0px;
+        font-size: 16px; }
+    .content-gallery .gallery .body-gallery .image .active {
+      background-color: #313E4B;
+      color: #fff; }
 
 .eror h2, .eror h4, .eror p {
   color: #eaeaea; }
